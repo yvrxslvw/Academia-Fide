@@ -63,13 +63,13 @@ const langArr = {
 		},
 		'donate': {
 			'es': {
-				'title': 'Donar Academia Fide'
+				'title': 'Apoyanos'
 			},
 			'en': {
-				'title': 'Donate Academia Fide'
+				'title': 'Support us'
 			},
 			'ru': {
-				'title': 'Поддержать Academia Fide'
+				'title': 'Поддержать нас'
 			}
 		},
 		'search': {
