@@ -54,7 +54,7 @@ for(let chapter in langArr['all']) {
 // COOKIE
 const cookie = document.querySelector('.cookie');
 const cookieButton = document.querySelector('.cookie button');
-document.cookie.indexOf('cookieAccepted=true') !== -1 ? cookie.classList.add('_hidden') : cookie.classList.remove('_hidden');
+if(document.cookie.indexOf('cookieAccepted=true') === -1) cookie.classList.remove('_hidden');
 
 cookieButton.addEventListener('click', () => {
 	document.cookie = 'cookieAccepted=true; max-age=' + 60*60*24*15;
