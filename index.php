@@ -4,26 +4,26 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="assets/css/style.css">
-	<link rel="shortcut icon" href="assets/images/ico.png" type="image/png">
+	<link rel="stylesheet" href="/assets/css/style.css">
+	<link rel="shortcut icon" href="/assets/images/ico.png" type="image/png">
 	<title>Academia Fide</title>
 </head>
 <body>
 	<div class="wrapper">
 		<div class="cookie _hidden">
-			<img src="assets/images/cookie.png">
+			<img src="/assets/images/cookie.png">
 			<h3><span lng-cookie-title>Consentimiento de cookies</span></h3>
 			<div class="cookie__body">
 				<p><span lng-cookie-subtitle>Este sitio web utiliza cookies para garantizar que obtenga la mejor experiencia en nuestro sitio web.</span></p>
 				<button><span lng-cookie-accept>Aceptar</span></button>
-				<a href="cookie.html"><span lng-cookie-more>Aprende más</span></a>
+				<a href="/cookie"><span lng-cookie-more>Aprende más</span></a>
 			</div>
 			<div class="cookie__error"><p><span lng-cookie-error>No se han establecido cookies. Permita que su navegador establezca cookies.</span></p></div>
 		</div>
 		<header>
 			<div class="container">
 				<div class="logo__row">
-					<a href="index.html"><img src="assets/images/logo.png"></a>
+					<a href="/"><img src="/assets/images/logo.png"></a>
 					<p class="header__number">
 						<i class="fa fa-mobile"></i>
 						<a href="tel:+34722369868">+34 722 369 868</a>
@@ -33,13 +33,13 @@
 					<button class="menu__bars"><i class="fa fa-bars"></i></button>
 					<div class="menu__body">
 						<div hidden class="menu__title"><span lng-menu-title>menú</span></div>
-						<div class="menu__item"><a href="beginning.html"><span lng-menu-beginning>Inicio</span></a></div>
-						<div class="menu__item"><a href="about.html"><span lng-menu-aboutus>Quiénes Somos</span></a></div>
-						<div class="menu__item"><a href="doing.html"><span lng-menu-whatdowedo>A qué nos dedicamos</span></a></div>
-						<div class="menu__item"><a href="classes.html"><span lng-menu-classes>Clases semanales de alto rendimiento</span></a></div>
-						<div class="menu__item"><a href="shop.html"><span lng-menu-shop>Tienda</span></a></div>
-						<div class="menu__item"><a href="terms.html"><span lng-menu-terms>Términos legales</span></a></div>
-						<div class="menu__item"><a href="contact.html"><span lng-menu-contactus>Contáctenos</span></a></div>
+						<div class="menu__item"><a href="/beginning"><span lng-menu-beginning>Inicio</span></a></div>
+						<div class="menu__item"><a href="/about"><span lng-menu-aboutus>Quiénes Somos</span></a></div>
+						<div class="menu__item"><a href="/doing"><span lng-menu-whatdowedo>A qué nos dedicamos</span></a></div>
+						<div class="menu__item"><a href="/classes"><span lng-menu-classes>Clases semanales de alto rendimiento</span></a></div>
+						<div class="menu__item"><a href="/shop"><span lng-menu-shop>Tienda</span></a></div>
+						<div class="menu__item"><a href="/terms"><span lng-menu-terms>Términos legales</span></a></div>
+						<div class="menu__item"><a href="/contact"><span lng-menu-contactus>Contáctenos</span></a></div>
 						<nav class="lang">
 							<button class="lang__button"><span lng-menu-language>Idioma</span> <i class="fa fa-bars"></i></button>
 							<ul hidden class="lang__list">
@@ -54,24 +54,24 @@
 		</header>
 		<main>
 			<div class="slider">
-				<img class="_active" src="assets/images/chess1.jpg">
-				<img src="assets/images/chess2.jpg">
-				<img src="assets/images/chess3.jpg">
+				<img class="_active" src="/assets/images/chess1.jpg">
+				<img src="/assets/images/chess2.jpg">
+				<img src="/assets/images/chess3.jpg">
 				<div class="slider__body">
 					<div class="slider__item _active">
 						<h2><span lng-slider-title_first>CLASES SEMANALES DE ALTO RENDIMIENTO</span></h2>
 						<h3><span lng-slider-subtitle_first>Clases Grupales Online de Academia FIDE Dirigidas al jugador de torneo, recomendadas especialmente para jugadores entre 2000 y 2400 de ranking...</span></h3>
-						<a href="classes.html"><span lng-slider-button1>LEER MÁS</span></a>
+						<a href="/classes"><span lng-slider-button1>LEER MÁS</span></a>
 					</div>
 					<div class="slider__item">
 						<h2><span lng-slider-title_second>QUIÉNES SOMOS</span></h2>
 						<h3><span lng-slider-subtitle_second>Nuestra Historia Después de muchos años como entrenadores...</span></h3>
-						<a href="about.html"><span lng-slider-button2>LEER MÁS</span></a>
+						<a href="/about"><span lng-slider-button2>LEER MÁS</span></a>
 					</div>
 					<div class="slider__item">
 						<h2><span lng-slider-title_third>TIENDA</span></h2>
 						<h3><span lng-slider-subtitle_third>Ahora puedes ver todos los seminarios realizados en Academia Fide...</span></h3>
-						<a href="shop.html"><span lng-slider-button3>LEER MÁS</span></a>
+						<a href="/shop"><span lng-slider-button3>LEER MÁS</span></a>
 					</div>
 					<div class="slider__nav">
 						<button class="nav _active" id="navFirst"></button>
@@ -85,19 +85,19 @@
 				<div class="container">
 					<div class="description__row">
 						<div class="description__item">
-							<div class="description__img"><img src="assets/images/chess1.jpg"></div>
+							<div class="description__img"><img src="/assets/images/chess1.jpg"></div>
 							<h3><span lng-description-first_title>CLASES SEMANALES DE ALTO RENDIMIENTO</span></h3>
-							<h4><span lng-description-first_subtitle>Clases Grupales Online de Academia FIDE Dirigidas al jugador de torneo, recomendadas especialmente para jugadores entre 2000 y 2400 de ranking. Se estudiarán diversos temas de las diferentes fases del juego a través principalmente del análisis de partidas. Se aplicará un enfoque práctico, orientado a resolver los problemas con los que nos encontramos en las</span> <a href="classes.html">[...]</a></h4>
+							<h4><span lng-description-first_subtitle>Clases Grupales Online de Academia FIDE Dirigidas al jugador de torneo, recomendadas especialmente para jugadores entre 2000 y 2400 de ranking. Se estudiarán diversos temas de las diferentes fases del juego a través principalmente del análisis de partidas. Se aplicará un enfoque práctico, orientado a resolver los problemas con los que nos encontramos en las</span> <a href="/classes">[...]</a></h4>
 						</div>
 						<div class="description__item">
-							<div class="description__img"><img src="assets/images/chess2.jpg"></div>
+							<div class="description__img"><img src="/assets/images/chess2.jpg"></div>
 							<h3><span lng-description-second_title>QUIÉNES SOMOS</span></h3>
-							<h4><span lng-description-second_subtitle>Nuestra Historia Después de muchos años como entrenadores el MF y FT Adrián Randazzo y el GM y FT Fernando Peralta decidimos juntar esfuerzos en un proyecto que nos permitiera transmitir de manera óptima nuestros conocimientos y experiencia. La visión Adrián con una larga experiencia como entrenador y educador docente se complementa con la de</span> <a href="about.html">[...]</a></h4>
+							<h4><span lng-description-second_subtitle>Nuestra Historia Después de muchos años como entrenadores el MF y FT Adrián Randazzo y el GM y FT Fernando Peralta decidimos juntar esfuerzos en un proyecto que nos permitiera transmitir de manera óptima nuestros conocimientos y experiencia. La visión Adrián con una larga experiencia como entrenador y educador docente se complementa con la de</span> <a href="/about">[...]</a></h4>
 						</div>
 						<div class="description__item">
-							<div class="description__img"><img src="assets/images/chess3.jpg"></div>
+							<div class="description__img"><img src="/assets/images/chess3.jpg"></div>
 							<h3><span lng-description-third_title>TIENDA</span></h3>
-							<h4><span lng-description-third_subtitle>Ahora puedes ver todos los seminarios realizados en Academia Fide , como así también obtener videos de alta calidad técnica realizado por nuestros Maestros y Grandes Maestros. Te damos la posibilidad de realizar el pago de los mismos en diferentes modalidades como pago seguro con tarjeta de debito/crédito, Paypal o bien transferencia bancaria</span> <a href="shop.html">[...]</a></h4>
+							<h4><span lng-description-third_subtitle>Ahora puedes ver todos los seminarios realizados en Academia Fide , como así también obtener videos de alta calidad técnica realizado por nuestros Maestros y Grandes Maestros. Te damos la posibilidad de realizar el pago de los mismos en diferentes modalidades como pago seguro con tarjeta de debito/crédito, Paypal o bien transferencia bancaria</span> <a href="/shop">[...]</a></h4>
 						</div>
 					</div>
 				</div>
@@ -166,8 +166,8 @@
 		</footer>
 	</div>
 
-	<script src="assets/js/lang.js"></script>
-	<script src="assets/js/script.js"></script>
-	<script src="assets/js/slider.js"></script>
+	<script src="/assets/js/lang.js"></script>
+	<script src="/assets/js/script.js"></script>
+	<script src="/assets/js/slider.js"></script>
 </body>
 </html>

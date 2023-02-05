@@ -4,26 +4,26 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="assets/css/style.css">
-	<link rel="shortcut icon" href="assets/images/ico.png" type="image/png">
+	<link rel="stylesheet" href="/assets/css/style.css">
+	<link rel="shortcut icon" href="/assets/images/ico.png" type="image/png">
 	<title>Academia Fide</title>
 </head>
 <body>
 	<div class="wrapper">
 		<div class="cookie _hidden">
-			<img src="assets/images/cookie.png">
+			<img src="/assets/images/cookie.png">
 			<h3><span lng-cookie-title>Consentimiento de cookies</span></h3>
 			<div class="cookie__body">
 				<p><span lng-cookie-subtitle>Este sitio web utiliza cookies para garantizar que obtenga la mejor experiencia en nuestro sitio web.</span></p>
 				<button><span lng-cookie-accept>Aceptar</span></button>
-				<a href="cookie.html"><span lng-cookie-more>Aprende más</span></a>
+				<a href="/cookie"><span lng-cookie-more>Aprende más</span></a>
 			</div>
 			<div class="cookie__error"><p><span lng-cookie-error>No se han establecido cookies. Permita que su navegador establezca cookies.</span></p></div>
 		</div>
 		<header>
 			<div class="container">
 				<div class="logo__row">
-					<a href="index.html"><img src="assets/images/logo.png"></a>
+					<a href="/"><img src="/assets/images/logo.png"></a>
 					<p class="header__number">
 						<i class="fa fa-mobile"></i>
 						<a href="tel:+34722369868">+34 722 369 868</a>
@@ -33,13 +33,13 @@
 					<button class="menu__bars"><i class="fa fa-bars"></i></button>
 					<div class="menu__body">
 						<div hidden class="menu__title"><span lng-menu-title>menú</span></div>
-						<div class="menu__item"><a href="beginning.html"><span lng-menu-beginning>Inicio</span></a></div>
-						<div class="menu__item"><a href="about.html"><span lng-menu-aboutus>Quiénes Somos</span></a></div>
-						<div class="menu__item"><a href="doing.html"><span lng-menu-whatdowedo>A qué nos dedicamos</span></a></div>
-						<div class="menu__item"><a href="classes.html"><span lng-menu-classes>Clases semanales de alto rendimiento</span></a></div>
-						<div class="menu__item"><a href="shop.html"><span lng-menu-shop>Tienda</span></a></div>
-						<div class="menu__item"><a href="terms.html"><span lng-menu-terms>Términos legales</span></a></div>
-						<div class="menu__item"><a href="contact.html"><span lng-menu-contactus>Contáctenos</span></a></div>
+						<div class="menu__item"><a href="/beginning"><span lng-menu-beginning>Inicio</span></a></div>
+						<div class="menu__item"><a href="/about"><span lng-menu-aboutus>Quiénes Somos</span></a></div>
+						<div class="menu__item"><a href="/doing"><span lng-menu-whatdowedo>A qué nos dedicamos</span></a></div>
+						<div class="menu__item"><a href="/classes"><span lng-menu-classes>Clases semanales de alto rendimiento</span></a></div>
+						<div class="menu__item"><a href="/shop"><span lng-menu-shop>Tienda</span></a></div>
+						<div class="menu__item"><a href="/terms"><span lng-menu-terms>Términos legales</span></a></div>
+						<div class="menu__item"><a href="/contact"><span lng-menu-contactus>Contáctenos</span></a></div>
 						<nav class="lang">
 							<button class="lang__button"><span lng-menu-language>Idioma</span> <i class="fa fa-bars"></i></button>
 							<ul hidden class="lang__list">
@@ -53,7 +53,7 @@
 			</div>
 		</header>
 		<main>
-			COOKIE
+			CLASSES
 		</main>
 		<footer>
 			<div class="footer__info">
@@ -96,7 +96,7 @@
 		</footer>
 	</div>
 
-	<script src="assets/js/lang.js"></script>
-	<script src="assets/js/script.js"></script>
+	<script src="/assets/js/lang.js"></script>
+	<script src="/assets/js/script.js"></script>
 </body>
 </html>
