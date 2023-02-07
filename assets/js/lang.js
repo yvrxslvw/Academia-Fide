@@ -197,7 +197,6 @@ const langArr = {
 }
 
 const langs = ['es', 'en', 'ru'];
-const currPage = window.location.pathname;
 
 let language;
 if(document.cookie.indexOf('Language') === -1) {

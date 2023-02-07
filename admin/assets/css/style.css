@@ -1,0 +1,172 @@
+@import 'reset.css';
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap');
+
+body {
+	font-family: 'Oswald', sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #252525;
+	background-color: #F8F8F8;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-width: 100%;
+	min-height: 100vh;
+	overflow: hidden;
+}
+
+a *, a, a:visited, a:active {
+	color: #6F6F6F;
+	transition: color .5s ease;
+}
+a:hover {
+	color: #9B9B9B;
+}
+
+button {
+	padding: 10px 15px;
+	font-weight: 700;
+	font-size: 20px;
+	border-radius: 5px;
+	transition: color .5s ease;
+	border: 1px solid #6F6F6F;
+	margin: 0px 0px 10px 0px;
+}
+button:hover {
+	color: #6F6F6F;
+}
+
+h4 {
+	text-align: right;
+	color: #6F6F6F;
+}
+
+h6 {
+	font-size: 24px;
+	text-transform: uppercase;
+	text-align: right;
+	font-weight: 400;
+	color: #F93E58;
+	margin: 0px 0px 10px 0px;
+}
+
+
+
+.auth form {
+	background-color: rgba(150, 150, 150, .25);
+	padding: 10px 15px;
+	display: flex;
+	flex-direction: column;
+	border-radius: 10px;
+}
+
+.auth label {
+	font-size: 20px;
+	margin: 0px 0px 10px 0px;
+	font-weight: 700;
+}
+
+.auth input {
+	margin: 0px 0px 20px 0px;
+	background-color: initial;
+	border-bottom: 2px solid #F8F8F8;
+	font-size: 16px;
+	font-weight: 700;
+	padding: 5px;
+}
+
+.auth button {
+	border: none;
+}
+
+
+
+.panel {
+	background-color: rgba(150, 150, 150, .25);
+	padding: 10px 15px;
+	display: flex;
+	flex-direction: column;
+	border-radius: 10px;
+}
+
+.menu {
+	display: none;
+}
+
+.menu._active {
+	display: flex;
+	flex-direction: column;
+}
+
+.menu p {
+	text-align: center;
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+	border-bottom: 2px solid #F8F8F8;
+	padding: 0px 0px 10px 0px;
+	margin: 0px 0px 10px 0px;
+}
+
+.menu a {
+	text-align: right;
+	padding: 10px 0px 0px 0px;
+	border-top: 2px solid #F8F8F8;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.menu label {
+	font-size: 20px;
+	margin: 0px 0px 10px 0px;
+	font-weight: 700;
+}
+
+.menu input {
+	margin: 0px 0px 20px 0px;
+	background-color: initial;
+	border-bottom: 2px solid #F8F8F8;
+	font-size: 16px;
+	font-weight: 700;
+	padding: 5px;
+}
+
+.menu form {
+	display: flex;
+	flex-direction: column;
+}
+
+.latestPosts__item {
+	margin: 10px 0px;
+	padding: 10px 15px;
+	border: 1px solid #F8F8F8;
+}
+
+.latestPosts__item button {
+	width: 100%;
+}
+
+.inter {
+	display: flex;
+	flex-direction: column;
+}
+
+.inter label {
+	font-size: 24px;
+	margin: 0px 0px 5px 0px;
+}
+
+.inter textarea {
+	background-color: rgba(155, 155, 155, 0.1);
+	border-radius: 5px;
+	margin: 0px 0px 20px 0px;
+	width: 700px;
+	height: 100px;
+	overflow: hidden;
+	word-wrap: break-word;
+	padding: 5px 10px;
+}

@@ -58,11 +58,11 @@ body {
 	margin: 0px auto;
 }
 
-a *, a {
+a *, a, a:visited, a:active {
 	color: #6F6F6F;
 	transition: color .5s ease;
 }
-a span:hover, a:hover {
+a:hover {
 	color: #9B9B9B;
 }
 
@@ -330,7 +330,7 @@ main {
 	color: #333333;
 }
 
-.slider__body a span {
+.slider__body a {
 	border: 2px solid #252525;
 	color: #252525;
 	padding: 10px 35px;
@@ -339,7 +339,7 @@ main {
 	transition: color .5s ease;
 	text-transform: uppercase;
 }
-.slider__body a span:hover {
+.slider__body a:hover {
 	color: #6F6F6F;
 }
 
@@ -559,10 +559,10 @@ main {
 	margin: 10px 0px 0px 0px;
 }
 
-.messages__item a span {
+.messages__item a {
 	color: #bebebe;
 }
-.messages__item a span:hover {
+.messages__item a:hover {
 	color: #9B9B9B;
 }
 
@@ -637,7 +637,7 @@ main {
 	.header__menu .menu__item:last-child {
 		margin: 0px;
 	}
-	.menu__item a span{
+	.menu__item a {
 		color: #F8F8F8;
 	}
 	.menu__bars .fa-bars {
