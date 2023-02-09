@@ -35,7 +35,7 @@
 					<button class="menu__bars"><i class="fa fa-bars"></i></button>
 					<div class="menu__body">
 						<div hidden class="menu__title">menú</div>
-						<div class="menu__item"><a href="/">Inicio</a></div>
+						<div class="menu__item _active">Inicio</div>
 						<div class="menu__item"><a href="/about">Quiénes Somos</a></div>
 						<div class="menu__item"><a href="/doing">A qué nos dedicamos</a></div>
 						<div class="menu__item"><a href="/classes">Clases semanales de alto rendimiento</a></div>
@@ -115,7 +115,7 @@
 								$row = mysqli_fetch_assoc($result);
 
 								echo '<div class="post__item">';
-									echo '<img src="' . $row['image'] . '">';
+									echo '<img src="' . $row['image'] . '" class="post__img">';
 									echo '<h2>' . $row['title'] . '...</h2>';
 									echo '<a href="classes/" class="item__readMore">Leer más</a>';
 								echo '</div>';

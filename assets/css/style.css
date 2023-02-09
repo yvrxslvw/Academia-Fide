@@ -66,6 +66,12 @@ a:hover {
 	color: #9B9B9B;
 }
 
+h1 {
+	font-size: 36px;
+	text-align: center;
+	margin: 0px 0px 50px 0px;
+}
+
 h2 {
 	font-size: 24px;
 	font-weight: 700;
@@ -215,6 +221,13 @@ header {
 
 .header__menu .menu__item a {
 	text-transform: uppercase;
+}
+.header__menu .menu__item {
+	text-transform: uppercase;
+}
+.header__menu .menu__item._active {
+	font-weight: 700;
+	color: #6F6F6F;
 }
 .header__menu .menu__item:last-child {
 	margin: 0px;
@@ -447,10 +460,20 @@ main {
 .post__item:last-child {
 	margin: 0px;
 }
+.post__item p {
+	white-space: pre-wrap;
+}
 
 .post__item img {
 	max-width: 50%;
 	margin: 0px 0px 10px 0px;
+}
+.post__img._active {
+	position: absolute;
+	z-index: 17;
+	top: 0px;
+	left: 0px;
+	min-width: 100%;
 }
 
 .post__item h2 {
@@ -482,7 +505,7 @@ main {
 /* Donate */
 .donate {
 	margin: 0px 0px 50px 0px;
-	width: 55%;
+	width: 75%;
 }
 
 .donate__title {
@@ -497,6 +520,7 @@ main {
 }
 
 .donate__widget {
+	text-align: center;
 	background-color: #ededed;
 	border-radius: 0px 0px 10px 10px;
 	height: 50px;
@@ -649,6 +673,14 @@ main {
 
 
 /* Medias */
+@media (max-width: 1920px) {
+	.post__img._active {
+		min-width: 80%;
+		top: -200px;
+		left: 10%;
+	}
+}
+
 @media (max-width: 1180px) {
 	.container {
 		margin: 0px 30px;
@@ -749,6 +781,10 @@ main {
 	.sidebar {
 		margin: 0px 0px 50px 0px;
 	}
+	.post__img._active {
+		min-width: 100%;
+		left: 0px;
+	}
 }
 
 @media (max-width: 767px) {
@@ -813,5 +849,8 @@ main {
 	}
 	.sidebar {
 		width: 100%;
+	}
+	.post__item a {
+		font-size: 17px;
 	}
 }

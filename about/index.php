@@ -36,7 +36,7 @@
 					<div class="menu__body">
 						<div hidden class="menu__title">menú</div>
 						<div class="menu__item"><a href="/">Inicio</a></div>
-						<div class="menu__item"><a href="/about">Quiénes Somos</a></div>
+						<div class="menu__item _active">Quiénes Somos</div>
 						<div class="menu__item"><a href="/doing">A qué nos dedicamos</a></div>
 						<div class="menu__item"><a href="/classes">Clases semanales de alto rendimiento</a></div>
 						<div class="menu__item"><a href="/shop">Tienda</a></div>

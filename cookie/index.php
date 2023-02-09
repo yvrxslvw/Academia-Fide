@@ -57,13 +57,15 @@
 		<main>
 			<div class="content">
 				<div class="container">
-					<div class="content__item">
-						<h2>¿Qué son las cookies?</h2>
-						<p>Las cookies son piezas de configuración del usuario para simplificar el trabajo y facilitar el uso del sitio web, por ejemplo, para recordar el idioma en el que se mostrará el sitio, las preferencias, el producto guardado en la cesta, etc.</p>
-					</div>
-					<div class="content__item">
-						<h2>¿Por qué usamos estos?</h2>
-						<p>En nuestro caso, utilizamos cookies para recordar la elección de idioma del sitio web de cada usuario. De esta manera no tienes que cambiar el idioma cada vez que usas el sitio web.</p>
+					<div class="post__item">
+						<div class="content__item">
+							<h2>¿Qué son las cookies?</h2>
+							<p>Las cookies son piezas de configuración del usuario para simplificar el trabajo y facilitar el uso del sitio web, por ejemplo, para recordar el idioma en el que se mostrará el sitio, las preferencias, el producto guardado en la cesta, etc.</p>
+						</div>
+						<div class="content__item">
+							<h2>¿Por qué usamos estos?</h2>
+							<p>En nuestro caso, utilizamos cookies para recordar la elección de idioma del sitio web de cada usuario. De esta manera no tienes que cambiar el idioma cada vez que usas el sitio web.</p>
+						</div>
 					</div>
 				</div>
 			</div>

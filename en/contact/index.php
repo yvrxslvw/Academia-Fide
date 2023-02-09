@@ -41,7 +41,7 @@
 						<div class="menu__item"><a href="/en/classes">High performance weekly classes</a></div>
 						<div class="menu__item"><a href="/en/shop">Shop</a></div>
 						<div class="menu__item"><a href="/en/terms">Legal terms</a></div>
-						<div class="menu__item"><a href="/en/contact">Contact us</a></div>
+						<div class="menu__item _active">Contact us</div>
 						<nav class="lang">
 							<button class="lang__button">Language <i class="fa fa-bars"></i></button>
 							<ul hidden class="lang__list">
@@ -55,7 +55,18 @@
 			</div>
 		</header>
 		<main>
-			CONTACT US
+			<div class="content">
+				<div class="container">
+					<div class="post__item">
+						<h2>To contact us use:</h2>
+						<p>Phone <a href="tel:+34722369868">+34 722 369 868</a></p>
+						<p>Email <a href="mailto:fideacademia@gmail.com">fideacademia@gmail.com</a></p>
+						<p>Facebook <a href="https://www.facebook.com/academiafide">https://www.facebook.com/academiafide</a></p>
+						<p>Twitter <a href="https://twitter.com/academia_fide">https://twitter.com/academia_fide</a></p>
+						<p>Instagram <a href="https://www.instagram.com/fideacademia/">https://www.instagram.com/fideacademia</a></p>
+					</div>
+				</div>
+			</div>
 		</main>
 		<footer>
 			<div class="footer__info">

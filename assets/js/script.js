@@ -2,6 +2,7 @@
 const cookie = document.querySelector('.cookie');
 const cookieButton = document.querySelector('.cookie button');
 if(document.cookie.indexOf('cookieAccepted=true') === -1) cookie.classList.remove('_hidden');
+else setTimeout(hideCookie, 700);
 
 cookieButton.addEventListener('click', () => {
 	document.cookie = 'cookieAccepted=true; path=/; max-age=' + 60*60*24*15;
@@ -40,9 +41,10 @@ function changeLanguage(lang) {
 
 
 
-// MENUS
+// MENUS & IMAGES
 const langChange = document.querySelector('.lang');
 const menu = document.querySelector('.header__menu');
+const postImg = document.querySelector('.post__img');
 document.addEventListener('click', (event) => {
 	if(event.target.closest('.lang__button')) {
 		langChange.classList.toggle('_active');
@@ -56,6 +58,13 @@ document.addEventListener('click', (event) => {
 	}
 	if(!event.target.closest('.header__menu')) {
 		menu.classList.remove('_active');
+	}
+
+	if(event.target.closest('.post__img')) {
+		event.target.classList.toggle('_active');
+	}
+	if(!event.target.closest('.post__img')) {
+		event.target.classList.remove('_active');
 	}
 });
 

@@ -39,7 +39,7 @@
 						<div class="menu__item"><a href="/about">Quiénes Somos</a></div>
 						<div class="menu__item"><a href="/doing">A qué nos dedicamos</a></div>
 						<div class="menu__item"><a href="/classes">Clases semanales de alto rendimiento</a></div>
-						<div class="menu__item"><a href="/shop">Tienda</a></div>
+						<div class="menu__item _active">Tienda</div>
 						<div class="menu__item"><a href="/terms">Términos legales</a></div>
 						<div class="menu__item"><a href="/contact">Contáctenos</a></div>
 						<nav class="lang">

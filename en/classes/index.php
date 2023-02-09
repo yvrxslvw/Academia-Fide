@@ -38,7 +38,7 @@
 						<div class="menu__item"><a href="/en">Beginning</a></div>
 						<div class="menu__item"><a href="/en/about">About us</a></div>
 						<div class="menu__item"><a href="/en/doing">What do we do</a></div>
-						<div class="menu__item"><a href="/en/classes">High performance weekly classes</a></div>
+						<div class="menu__item _active">High performance weekly classes</div>
 						<div class="menu__item"><a href="/en/shop">Shop</a></div>
 						<div class="menu__item"><a href="/en/terms">Legal terms</a></div>
 						<div class="menu__item"><a href="/en/contact">Contact us</a></div>
@@ -55,7 +55,23 @@
 			</div>
 		</header>
 		<main>
-			HIGH PERFORMANCE WEEKLY CLASSES
+			<div class="content">
+				<div class="container">
+					<?php
+						$result = mysqli_query($connect, "SELECT * FROM `latest posts`");
+					
+						for($i = 0; $i < mysqli_num_rows($result); $i++) {
+							$row = mysqli_fetch_assoc($result);
+
+							echo '<div class="post__item">';
+								echo '<h2>' . $row['title_en'] . '</h2>';
+								echo '<img src="' . $row['image'] . '" class="post__img">';
+								echo '<p>' . linkIt($row['text_en']) . '</p>';
+							echo '</div>';
+						}
+					?>
+				</div>
+			</div>
 		</main>
 		<footer>
 			<div class="footer__info">

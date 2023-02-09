@@ -40,7 +40,7 @@
 						<div class="menu__item"><a href="/en/doing">What do we do</a></div>
 						<div class="menu__item"><a href="/en/classes">High performance weekly classes</a></div>
 						<div class="menu__item"><a href="/en/shop">Shop</a></div>
-						<div class="menu__item"><a href="/en/terms">Legal terms</a></div>
+						<div class="menu__item _active">Legal terms</div>
 						<div class="menu__item"><a href="/en/contact">Contact us</a></div>
 						<nav class="lang">
 							<button class="lang__button">Language <i class="fa fa-bars"></i></button>

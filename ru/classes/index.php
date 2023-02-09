@@ -38,7 +38,7 @@
 						<div class="menu__item"><a href="/ru">Начало</a></div>
 						<div class="menu__item"><a href="/ru/about">О нас</a></div>
 						<div class="menu__item"><a href="/ru/doing">Что мы делаем</a></div>
-						<div class="menu__item"><a href="/ru/classes">Активные еженедельные занятия</a></div>
+						<div class="menu__item _active">Активные еженедельные занятия</div>
 						<div class="menu__item"><a href="/ru/shop">Магазин</a></div>
 						<div class="menu__item"><a href="/ru/terms">Юридические термины</a></div>
 						<div class="menu__item"><a href="/ru/contact">Связь с нами</a></div>
@@ -55,7 +55,23 @@
 			</div>
 		</header>
 		<main>
-			АКТИВНЫЕ ЕЖЕНЕДЕЛЬНЫЕ ЗАНЯТИЯ
+			<div class="content">
+				<div class="container">
+					<?php
+						$result = mysqli_query($connect, "SELECT * FROM `latest posts`");
+					
+						for($i = 0; $i < mysqli_num_rows($result); $i++) {
+							$row = mysqli_fetch_assoc($result);
+
+							echo '<div class="post__item">';
+								echo '<h2>' . $row['title_ru'] . '</h2>';
+								echo '<img src="' . $row['image'] . '" class="post__img">';
+								echo '<p>' . linkIt($row['text_ru']) . '</p>';
+							echo '</div>';
+						}
+					?>
+				</div>
+			</div>
 		</main>
 		<footer>
 			<div class="footer__info">

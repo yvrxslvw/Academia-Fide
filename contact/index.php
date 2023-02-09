@@ -41,7 +41,7 @@
 						<div class="menu__item"><a href="/classes">Clases semanales de alto rendimiento</a></div>
 						<div class="menu__item"><a href="/shop">Tienda</a></div>
 						<div class="menu__item"><a href="/terms">Términos legales</a></div>
-						<div class="menu__item"><a href="/contact">Contáctenos</a></div>
+						<div class="menu__item _active">Contáctenos</div>
 						<nav class="lang">
 							<button class="lang__button">Idioma <i class="fa fa-bars"></i></button>
 							<ul hidden class="lang__list">
@@ -55,7 +55,18 @@
 			</div>
 		</header>
 		<main>
-			CONTÁCTENOS
+			<div class="content">
+				<div class="container">
+					<div class="post__item">
+						<h2>Para contactarnos usa:</h2>
+						<p>Teléfono <a href="tel:+34722369868">+34 722 369 868</a></p>
+						<p>Correo electrónico <a href="mailto:fideacademia@gmail.com">fideacademia@gmail.com</a></p>
+						<p>Facebook <a href="https://www.facebook.com/academiafide">https://www.facebook.com/academiafide</a></p>
+						<p>Twitter <a href="https://twitter.com/academia_fide">https://twitter.com/academia_fide</a></p>
+						<p>Instagram <a href="https://www.instagram.com/fideacademia/">https://www.instagram.com/fideacademia</a></p>
+					</div>
+				</div>
+			</div>
 		</main>
 		<footer>
 			<div class="footer__info">

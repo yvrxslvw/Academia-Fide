@@ -37,7 +37,7 @@
 						<div hidden class="menu__title">Menu</div>
 						<div class="menu__item"><a href="/en">Beginning</a></div>
 						<div class="menu__item"><a href="/en/about">About us</a></div>
-						<div class="menu__item"><a href="/en/doing">What do we do</a></div>
+						<div class="menu__item _active">What do we do</div>
 						<div class="menu__item"><a href="/en/classes">High performance weekly classes</a></div>
 						<div class="menu__item"><a href="/en/shop">Shop</a></div>
 						<div class="menu__item"><a href="/en/terms">Legal terms</a></div>

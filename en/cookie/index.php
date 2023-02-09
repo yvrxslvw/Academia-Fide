@@ -57,13 +57,15 @@
 		<main>
 			<div class="content">
 				<div class="container">
-					<div class="content__item">
-						<h2>What are Cookies?</h2>
-						<p>Cookies are pieces of user settings to simplify the work and for the convenience of using the website, for example, to remember the language in which the site will be displayed, preferences, the saved product in the basket, etc.</p>
-					</div>
-					<div class="content__item">
-						<h2>Why do we use these files?</h2>
-						<p>In our case, we use cookies to remember the choice of website language for each user. This way you don't have to change the language every time you use the website.</p>
+					<div class="post__item">
+						<div class="content__item">
+							<h2>What are Cookies?</h2>
+							<p>Cookies are pieces of user settings to simplify the work and for the convenience of using the website, for example, to remember the language in which the site will be displayed, preferences, the saved product in the basket, etc.</p>
+						</div>
+						<div class="content__item">
+							<h2>Why do we use these files?</h2>
+							<p>In our case, we use cookies to remember the choice of website language for each user. This way you don't have to change the language every time you use the website.</p>
+						</div>
 					</div>
 				</div>
 			</div>

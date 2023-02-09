@@ -41,7 +41,7 @@
 						<div class="menu__item"><a href="/ru/classes">Активные еженедельные занятия</a></div>
 						<div class="menu__item"><a href="/ru/shop">Магазин</a></div>
 						<div class="menu__item"><a href="/ru/terms">Юридические термины</a></div>
-						<div class="menu__item"><a href="/ru/contact">Связь с нами</a></div>
+						<div class="menu__item _active">Связь с нами</div>
 						<nav class="lang">
 							<button class="lang__button">Язык <i class="fa fa-bars"></i></button>
 							<ul hidden class="lang__list">
@@ -55,7 +55,18 @@
 			</div>
 		</header>
 		<main>
-			СВЯЗЬ С НАМИ
+			<div class="content">
+				<div class="container">
+					<div class="post__item">
+						<h2>Для связи с нами используйте:</h2>
+						<p>Телефон <a href="tel:+34722369868">+34 722 369 868</a></p>
+						<p>Эл.почта <a href="mailto:fideacademia@gmail.com">fideacademia@gmail.com</a></p>
+						<p>Facebook <a href="https://www.facebook.com/academiafide">https://www.facebook.com/academiafide</a></p>
+						<p>Twitter <a href="https://twitter.com/academia_fide">https://twitter.com/academia_fide</a></p>
+						<p>Instagram <a href="https://www.instagram.com/fideacademia/">https://www.instagram.com/fideacademia</a></p>
+					</div>
+				</div>
+			</div>
 		</main>
 		<footer>
 			<div class="footer__info">
