@@ -75,7 +75,6 @@
 									
 									echo '<div class="messages__item">';
 										echo '<a href="' . $row['title link'] . '">' . $row['title_ru'] . '</a>';
-										echo '<p>' . linkIt($row['text_ru']) . '</p>';
 									echo '</div>';
 								}
 							?>

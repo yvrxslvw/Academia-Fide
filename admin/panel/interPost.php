@@ -25,11 +25,13 @@
 		$_SESSION['interMsg'] = 'deleted!';
 		header('Location: /admin/panel');
 	} elseif(isset($_POST['edited'])) {
+		unset($_SESSION['edit']);
 		if(strlen($_FILES['image']['tmp_name'])) {
 			$path = '/assets/uploads/post' . $id . '.png';
 			if(!move_uploaded_file($_FILES['image']['tmp_name'], '../..' . $path)) {
-				$_SESSION['interMsg'] = 'Image loading error.';
-				header('Location: /admin/panel');
+				$_SESSION['interErr'] = 'Image loading error.';
+				$_SESSION['edit'] = 1;
+				header('Location: interPost.php');
 				return;
 			}
 		}
@@ -47,6 +49,7 @@
 		$_SESSION['interMsg'] = 'edited!';
 		header('Location: /admin/panel');
 	} elseif(isset($_POST['created'])) {
+		unset($_SESSION['create']);
 		$result = mysqli_query($connect, "SELECT * FROM `latest posts`");
 		for($i = 1; $i <= mysqli_num_rows($result); $i++) {
 			$row = mysqli_fetch_assoc($result);
@@ -54,13 +57,15 @@
 		}
 
 		if(!$_FILES['image']['tmp_name']) {
-			$_SESSION['interMsg'] = 'No image has been selected.';
-			header('Location: /admin/panel');
+			$_SESSION['interErr'] = 'No image has been selected.';
+			$_SESSION['create'] = 1;
+			header('Location: interPost.php');
 			return;
 		}
 		$path = '/assets/uploads/post' . $id . '.png';
 		if(!move_uploaded_file($_FILES['image']['tmp_name'], '../..' . $path)) {
-			header('Location: /admin/panel');
+			$_SESSION['interErr'] = 'Image loading error.';
+			header('Location: interPost.php');
 			return;
 		}
 
@@ -102,7 +107,7 @@
 	<div class="wrapper">
 		<div class="panel">
 			<?php
-				if(isset($_POST['edit'])) {
+				if(isset($_POST['edit']) || $_SESSION['edit']) {
 					$result = mysqli_query($connect, "SELECT * FROM `latest posts` WHERE `id` = '$id'");
 					$row = mysqli_fetch_assoc($result);
 
@@ -126,7 +131,7 @@
 						echo '<textarea type="text" name="textRu">' . $row['text_ru'] . '</textarea>';
 						echo '<button name="edited">Edit</button>';
 					echo '</form>';
-				} elseif(isset($_POST['create'])) {
+				} elseif(isset($_POST['create']) || $_SESSION['create']) {
 					echo '<form class="inter" action="interPost.php" method="post" enctype="multipart/form-data">';
 						echo '<label>Image (only .png)</label>';
 						echo '<input type="file" name="image" accept=".png">';
@@ -147,7 +152,13 @@
 						echo '<button name="created">Create new</button>';
 					echo '</form>';
 				}
+				if($_SESSION['interErr'])
+				{
+					echo '<h6>' . $_SESSION['interErr'] . '</h6>';
+					unset($_SESSION['interErr']);
+				}
 			?>
+			
 			<a href="../">Back</a>
 		</div>
 	</div>

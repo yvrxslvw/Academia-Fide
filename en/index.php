@@ -163,7 +163,6 @@
 									
 									echo '<div class="messages__item">';
 										echo '<a href="' . $row['title link'] . '">' . $row['title_en'] . '</a>';
-										echo '<p>' . linkIt($row['text_en']) . '</p>';
 									echo '</div>';
 								}
 							?>
