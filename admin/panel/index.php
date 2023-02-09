@@ -23,7 +23,7 @@
 			<div class="menu main _active">
 				<p>admin panel</p>
 				<button onclick="openMenu('regAdm');">Register new Admin</button>
-				<button onclick="openMenu('latestPosts');">Footer latest posts</button>
+				<button onclick="openMenu('latestPosts');">Latest posts</button>
 				<a href="/assets/vendor/signout.php">sign out</a>
 			</div>
 			<div class="menu regAdm">

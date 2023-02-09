@@ -14,13 +14,26 @@
 	$textEs = $_POST['textEs'];
 	$textEn = $_POST['textEn'];
 	$textRu = $_POST['textRu'];
-
+	
 	if(isset($_POST['delete'])) {
+		$result = mysqli_query($connect, "SELECT * FROM `latest posts` WHERE `id` = '$id'");
+		$row = mysqli_fetch_assoc($result);
+		unlink('../..' . $row['image']);
+
 		mysqli_query($connect, "DELETE FROM `latest posts` WHERE `id` = '$id'");
 		mysqli_query($connect, "ALTER TABLE `latest posts` AUTO_INCREMENT = 1");
 		$_SESSION['interMsg'] = 'deleted!';
 		header('Location: /admin/panel');
 	} elseif(isset($_POST['edited'])) {
+		if(strlen($_FILES['image']['tmp_name'])) {
+			$path = '/assets/uploads/post' . $id . '.png';
+			if(!move_uploaded_file($_FILES['image']['tmp_name'], '../..' . $path)) {
+				$_SESSION['interMsg'] = 'Image loading error.';
+				header('Location: /admin/panel');
+				return;
+			}
+		}
+
 		mysqli_query($connect, "UPDATE `latest posts` SET 
 			`title` = '$titleEs', 
 			`title_en` = '$titleEn', 
@@ -34,7 +47,25 @@
 		$_SESSION['interMsg'] = 'edited!';
 		header('Location: /admin/panel');
 	} elseif(isset($_POST['created'])) {
+		$result = mysqli_query($connect, "SELECT * FROM `latest posts`");
+		for($i = 1; $i <= mysqli_num_rows($result); $i++) {
+			$row = mysqli_fetch_assoc($result);
+			$id = $row['id'] + 1;
+		}
+
+		if(!$_FILES['image']['tmp_name']) {
+			$_SESSION['interMsg'] = 'No image has been selected.';
+			header('Location: /admin/panel');
+			return;
+		}
+		$path = '/assets/uploads/post' . $id . '.png';
+		if(!move_uploaded_file($_FILES['image']['tmp_name'], '../..' . $path)) {
+			header('Location: /admin/panel');
+			return;
+		}
+
 		mysqli_query($connect, "INSERT INTO `latest posts` (
+			`image`, 
 			`title`, 
 			`title_en`, 
 			`title_ru`, 
@@ -43,6 +74,7 @@
 			`text_en`, 
 			`text_ru`
 		) VALUES (
+			'$path', 
 			'$titleEs', 
 			'$titleEn', 
 			'$titleRu', 
@@ -74,8 +106,10 @@
 					$result = mysqli_query($connect, "SELECT * FROM `latest posts` WHERE `id` = '$id'");
 					$row = mysqli_fetch_assoc($result);
 
-					echo '<form class="inter" action="interPost.php" method="post">';
+					echo '<form class="inter" action="interPost.php" method="post" enctype="multipart/form-data">';
 						echo '<input hidden value="' . $id . '" name="id">';
+						echo '<label>Image (only .png)</label>';
+						echo '<input type="file" name="image" accept=".png">';
 						echo '<label>Title Spanish</label>';
 						echo '<textarea type="text" name="titleEs">' . $row['title'] . '</textarea>';
 						echo '<label>Title English</label>';
@@ -93,7 +127,9 @@
 						echo '<button name="edited">Edit</button>';
 					echo '</form>';
 				} elseif(isset($_POST['create'])) {
-					echo '<form class="inter" action="interPost.php" method="post">';
+					echo '<form class="inter" action="interPost.php" method="post" enctype="multipart/form-data">';
+						echo '<label>Image (only .png)</label>';
+						echo '<input type="file" name="image" accept=".png">';
 						echo '<label>Title Spanish</label>';
 						echo '<textarea type="text" name="titleEs"></textarea>';
 						echo '<label>Title English</label>';

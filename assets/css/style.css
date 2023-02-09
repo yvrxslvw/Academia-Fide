@@ -66,6 +66,16 @@ a:hover {
 	color: #9B9B9B;
 }
 
+h2 {
+	font-size: 24px;
+	font-weight: 700;
+	margin: 0px 0px 10px 0px;
+}
+
+p {
+	font-size: 18px;
+}
+
 
 
 /* Cookie */
@@ -421,15 +431,58 @@ main {
 	width: 100%;
 }
 
+.content__item {
+	margin: 0px 0px 25px 0px;
+}
+
+.post__item {
+	text-align: center;
+	background-color: rgba(155, 155, 155, .1);
+	padding: 10px 20px;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px rgba(155, 155, 155, .2);
+	position: relative;
+	margin: 0px 0px 50px 0px;
+}
+.post__item:last-child {
+	margin: 0px;
+}
+
+.post__item img {
+	max-width: 50%;
+	margin: 0px 0px 10px 0px;
+}
+
+.post__item h2 {
+	margin: 0px 0px 10px 0px;
+}
+
+.post__item p {
+	text-align: left;
+	margin: 0px 0px 10px 0px;
+}
+
+.item__readMore {
+	font-size: 24px;
+	text-transform: uppercase;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+
 /* Sidebar */
 .sidebar {
 	width: 45%;
 	margin: 0px 0px 0px 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 /* Donate */
 .donate {
 	margin: 0px 0px 50px 0px;
+	width: 55%;
 }
 
 .donate__title {
@@ -440,12 +493,14 @@ main {
 	font-weight: 700;
 	text-transform: uppercase;
 	color: #F8F8F8;
+	text-align: center;
 }
 
 .donate__widget {
 	background-color: #ededed;
 	border-radius: 0px 0px 10px 10px;
-	height: 100px;
+	height: 50px;
+	padding: 10px 20px;
 }
 
 /* Search */

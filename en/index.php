@@ -1,7 +1,7 @@
-<?php session_start(); require_once 'assets/vendor/init.php'; ?>
+<?php session_start(); require_once '../assets/vendor/init.php'; ?>
 
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,18 +14,18 @@
 	<div class="wrapper">
 		<div class="cookie _hidden">
 			<img src="/assets/images/cookie.png">
-			<h3>Consentimiento de cookies</h3>
+			<h3>Cookie consent</h3>
 			<div class="cookie__body">
-				<p>Este sitio web utiliza cookies para garantizar que obtenga la mejor experiencia en nuestro sitio web.</p>
-				<button>Aceptar</button>
-				<a href="/cookie">Aprende más</a>
+				<p>This website uses cookies to ensure that you get the best experience on our website.</p>
+				<button>Accept</button>
+				<a href="/en/cookie">Learn more</a>
 			</div>
-			<div class="cookie__error"><p>No se han establecido cookies. Permita que su navegador establezca cookies.</p></div>
+			<div class="cookie__error"><p>Cookies have not been set. Allow your browser to set cookies.</p></div>
 		</div>
 		<header>
 			<div class="container">
 				<div class="logo__row">
-					<a href="/"><img src="/assets/images/logo.png"></a>
+					<a href="/en"><img src="/assets/images/logo.png"></a>
 					<p class="header__number">
 						<i class="fa fa-mobile"></i>
 						<a href="tel:+34722369868">+34 722 369 868</a>
@@ -34,16 +34,16 @@
 				<div class="header__menu">
 					<button class="menu__bars"><i class="fa fa-bars"></i></button>
 					<div class="menu__body">
-						<div hidden class="menu__title">menú</div>
-						<div class="menu__item"><a href="/">Inicio</a></div>
-						<div class="menu__item"><a href="/about">Quiénes Somos</a></div>
-						<div class="menu__item"><a href="/doing">A qué nos dedicamos</a></div>
-						<div class="menu__item"><a href="/classes">Clases semanales de alto rendimiento</a></div>
-						<div class="menu__item"><a href="/shop">Tienda</a></div>
-						<div class="menu__item"><a href="/terms">Términos legales</a></div>
-						<div class="menu__item"><a href="/contact">Contáctenos</a></div>
+						<div hidden class="menu__title">Menu</div>
+						<div class="menu__item"><a href="/en">Beginning</a></div>
+						<div class="menu__item"><a href="/en/about">About us</a></div>
+						<div class="menu__item"><a href="/en/doing">What do we do</a></div>
+						<div class="menu__item"><a href="/en/classes">High performance weekly classes</a></div>
+						<div class="menu__item"><a href="/en/shop">Shop</a></div>
+						<div class="menu__item"><a href="/en/terms">Legal terms</a></div>
+						<div class="menu__item"><a href="/en/contact">Contact us</a></div>
 						<nav class="lang">
-							<button class="lang__button">Idioma <i class="fa fa-bars"></i></button>
+							<button class="lang__button">Language <i class="fa fa-bars"></i></button>
 							<ul hidden class="lang__list">
 								<li><button onclick="changeLanguage('es')">Español</button></li>
 								<li><button onclick="changeLanguage('en')">English</button></li>
@@ -61,19 +61,19 @@
 				<img src="/assets/images/chess3.jpg">
 				<div class="slider__body">
 					<div class="slider__item _active">
-						<h2>CLASES SEMANALES DE ALTO RENDIMIENTO</h2>
-						<h3>Clases Grupales Online de Academia FIDE Dirigidas al jugador de torneo, recomendadas especialmente para jugadores entre 2000 y 2400 de ranking...</h3>
-						<a href="/classes">LEER MÁS</a>
+						<h2>HIGH PERFORMANCE WEEKLY CLASSES</h2>
+						<h3>Fide Academy Online Group Classes Aimed at tournament players, especially recommended for players between 2000 and 2400 ranking...</h3>
+						<a href="/en/classes">READ MORE</a>
 					</div>
 					<div class="slider__item">
-						<h2>QUIÉNES SOMOS</h2>
-						<h3>Nuestra Historia Después de muchos años como entrenadores...</h3>
-						<a href="/about">LEER MÁS</a>
+						<h2>ABOUT US</h2>
+						<h3>Our Story After many years as coaches...</h3>
+						<a href="/en/about">READ MORE</a>
 					</div>
 					<div class="slider__item">
-						<h2>TIENDA</h2>
-						<h3>Ahora puedes ver todos los seminarios realizados en Academia Fide...</h3>
-						<a href="/shop">LEER MÁS</a>
+						<h2>SHOP</h2>
+						<h3>Now you can see all the seminars held at Academia Fide...</h3>
+						<a href="/en/shop">READ MORE</a>
 					</div>
 					<div class="slider__nav">
 						<button class="nav _active" id="navFirst"></button>
@@ -88,18 +88,18 @@
 					<div class="description__row">
 						<div class="description__item">
 							<div class="description__img"><img src="/assets/images/chess1.jpg"></div>
-							<h3>CLASES SEMANALES DE ALTO RENDIMIENTO</h3>
-							<h4>Clases Grupales Online de Academia FIDE Dirigidas al jugador de torneo, recomendadas especialmente para jugadores entre 2000 y 2400 de ranking. Se estudiarán diversos temas de las diferentes fases del juego a través principalmente del análisis de partidas. Se aplicará un enfoque práctico, orientado a resolver los problemas con los que nos encontramos en las <a href="/classes">[...]</a></h4>
+							<h3>HIGH PERFORMANCE WEEKLY CLASSES</h3>
+							<h4>Fide Academy Online group classes aimed at tournament players, especially recommended for players between 2000 and 2400 ranking. Various topics of the different phases of the game will be studied mainly through game analysis. A practical approach will be applied, oriented to solve the problems that we find ourselves in the <a href="/en/classes">[...]</a></h4>
 						</div>
 						<div class="description__item">
 							<div class="description__img"><img src="/assets/images/chess2.jpg"></div>
-							<h3>QUIÉNES SOMOS</h3>
-							<h4>Nuestra Historia Después de muchos años como entrenadores el MF y FT Adrián Randazzo y el GM y FT Fernando Peralta decidimos juntar esfuerzos en un proyecto que nos permitiera transmitir de manera óptima nuestros conocimientos y experiencia. La visión Adrián con una larga experiencia como entrenador y educador docente se complementa con la de <a href="/about">[...]</a></h4>
+							<h3>ABOUT US</h3>
+							<h4>Our History After many years as coaches, MF and FT Adrián Randazzo and GM and FT Fernando Peralta decided to join forces in a project that would allow us to optimally transmit our knowledge and experience. Adrián\'s vision, with extensive experience as a trainer and teacher educator, is complemented by that of <a href="/en/about">[...]</a></h4>
 						</div>
 						<div class="description__item">
 							<div class="description__img"><img src="/assets/images/chess3.jpg"></div>
-							<h3>TIENDA</h3>
-							<h4>Ahora puedes ver todos los seminarios realizados en Academia Fide , como así también obtener videos de alta calidad técnica realizado por nuestros Maestros y Grandes Maestros. Te damos la posibilidad de realizar el pago de los mismos en diferentes modalidades como pago seguro con tarjeta de debito/crédito, Paypal o bien transferencia bancaria <a href="/shop">[...]</a></h4>
+							<h3>SHOP</h3>
+							<h4>Now you can see all the seminars held at Academia Fide, as well as obtain high quality technical videos made by our Masters and Grand Masters. We give you the possibility of paying them in different ways such as secure payment with debit/credit card, Paypal or bank transfer <a href="/en/shop">[...]</a></h4>
 						</div>
 					</div>
 				</div>
@@ -116,15 +116,15 @@
 
 								echo '<div class="post__item">';
 									echo '<img src="' . $row['image'] . '">';
-									echo '<h2>' . $row['title'] . '...</h2>';
-									echo '<a href="classes/" class="item__readMore">Leer más</a>';
+									echo '<h2>' . $row['title_en'] . '...</h2>';
+									echo '<a href="classes/" class="item__readMore">Read more</a>';
 								echo '</div>';
 							}
 						?>
 					</div>
 					<div class="sidebar">
 						<div class="donate">
-							<div class="donate__title">Apoyanos</div>
+							<div class="donate__title">Support us</div>
 							<div class="donate__widget">
 								<form action="https://www.paypal.com/donate" method="post" target="_top">
 									<input type="hidden" name="hosted_button_id" value="4A25D4GBUZYWW" />
@@ -135,10 +135,10 @@
 						</div>
 
 						<div class="search">
-							<div class="search__title">Búsqueda de sitio:</div>
+							<div class="search__title">Site search:</div>
 							<div class="search__input">
-								<input type="text" placeholder="Clases...">
-								<button>Buscar</button>
+								<input type="text" placeholder="Classes...">
+								<button>Search</button>
 							</div>
 						</div>
 					</div>
@@ -150,11 +150,11 @@
 				<div class="container">
 					<div class="info__body">
 						<div class="info__item">
-							<h3>QUÉ HACEMOS EN ACADEMIA FIDE</h3>
-							<p>Organización de Seminarios FIDE para la obtención de Títulos de Entrenadores de la Federación Internacional de Ajedrez. Venta de videos y material de ajedrez.</p>
+							<h3>WHAT WE DO AT FIDE ACADEMY</h3>
+							<p>Organization of Fide Seminars to obtain Coaches Titles from the International Chess Federation. Sale of videos and chess material.</p>
 						</div>
 						<div class="info__item">
-							<h3>ÚLTIMAS PUBLICACIONES</h3>
+							<h3>LATEST POSTS</h3>
 							<?php
 								$result = mysqli_query($connect, "SELECT * FROM `latest posts`");
 								
@@ -162,16 +162,16 @@
 									$row = mysqli_fetch_assoc($result);
 									
 									echo '<div class="messages__item">';
-										echo '<a href="' . $row['title link'] . '">' . $row['title'] . '</a>';
-										echo '<p>' . linkIt($row['text']) . '</p>';
+										echo '<a href="' . $row['title link'] . '">' . $row['title_en'] . '</a>';
+										echo '<p>' . linkIt($row['text_en']) . '</p>';
 									echo '</div>';
 								}
 							?>
 						</div>
 						<div class="info__item">
-							<h3>DÓNDE ESTAMOS</h3>
-							<p>Teléfono: <a href="tel:+34722369868">+34 722 369 868</a></p>
-							<p>Correo electrónico: <a href="mailto:fideacademia@gmail.com" target="_blank">fideacademia@gmail.com</a></p>
+							<h3>WHERE WE ARE</h3>
+							<p>Phone: <a href="tel:+34722369868">+34 722 369 868</a></p>
+							<p>Email: <a href="mailto:fideacademia@gmail.com" target="_blank">fideacademia@gmail.com</a></p>
 							<p>Website: <a href="https://www.academiafide.com">https://www.academiafide.com</a></p>
 							<div class="info__links">
 								<a href="https://www.facebook.com/academiafide"><div class="info__circle"><i class="fa fa-facebook"></i></div></a>
@@ -184,7 +184,7 @@
 			</div>
 			<div class="footer__rights">
 				<div class="container">
-					<p>© 2023 Academia Fide. Todos los Derechos Reservados.</p>
+					<p>© 2023 Academia Fide. All rights reserved.</p>
 				</div>
 			</div>
 		</footer>

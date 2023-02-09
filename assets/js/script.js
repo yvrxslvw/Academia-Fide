@@ -24,6 +24,43 @@ function hideCookie() {
 
 
 
+// LANGUAGE
+let language;
+if(document.cookie.indexOf('Language') !== -1) {
+	language = document.cookie.split('; ').find((row) => row.startsWith('Language=')).split('=')[1];
+	if(language !== 'es' && window.location.pathname.indexOf(language) === -1) {
+		window.location.href = '/' + language + window.location.pathname;
+	}
+}
+
+function changeLanguage(lang) {
+	window.location.href = '/';
+	document.cookie = `Language=${lang}; path=/; max-age=` + 60*60*24*15;
+}
+
+
+
+// MENUS
+const langChange = document.querySelector('.lang');
+const menu = document.querySelector('.header__menu');
+document.addEventListener('click', (event) => {
+	if(event.target.closest('.lang__button')) {
+		langChange.classList.toggle('_active');
+	}
+	if(!event.target.closest('.lang')) {
+		langChange.classList.remove('_active');
+	}
+
+	if(event.target.closest('.menu__bars')) {
+		menu.classList.toggle('_active');
+	}
+	if(!event.target.closest('.header__menu')) {
+		menu.classList.remove('_active');
+	}
+});
+
+
+
 // OTHER
 const currPage = window.location.pathname;
 
