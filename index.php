@@ -35,7 +35,7 @@
 					<button class="menu__bars"><i class="fa fa-bars"></i></button>
 					<div class="menu__body">
 						<div hidden class="menu__title">menú</div>
-						<div class="menu__item _active">Inicio</div>
+						<div class="menu__item _there">Inicio</div>
 						<div class="menu__item"><a href="/about">Quiénes Somos</a></div>
 						<div class="menu__item"><a href="/doing">A qué nos dedicamos</a></div>
 						<div class="menu__item"><a href="/classes">Clases semanales de alto rendimiento</a></div>

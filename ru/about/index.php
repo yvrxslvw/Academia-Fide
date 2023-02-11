@@ -36,7 +36,7 @@
 					<div class="menu__body">
 						<div hidden class="menu__title">Меню</div>
 						<div class="menu__item"><a href="/ru">Начало</a></div>
-						<div class="menu__item _active">О нас</div>
+						<div class="menu__item _there">О нас</div>
 						<div class="menu__item"><a href="/ru/doing">Что мы делаем</a></div>
 						<div class="menu__item"><a href="/ru/classes">Активные еженедельные занятия</a></div>
 						<div class="menu__item"><a href="/ru/shop">Магазин</a></div>

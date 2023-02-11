@@ -35,7 +35,7 @@
 					<button class="menu__bars"><i class="fa fa-bars"></i></button>
 					<div class="menu__body">
 						<div hidden class="menu__title">Меню</div>
-						<div class="menu__item _active">Начало</div>
+						<div class="menu__item _there">Начало</div>
 						<div class="menu__item"><a href="/ru/about">О нас</a></div>
 						<div class="menu__item"><a href="/ru/doing">Что мы делаем</a></div>
 						<div class="menu__item"><a href="/ru/classes">Активные еженедельные занятия</a></div>

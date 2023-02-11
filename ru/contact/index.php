@@ -41,7 +41,7 @@
 						<div class="menu__item"><a href="/ru/classes">Активные еженедельные занятия</a></div>
 						<div class="menu__item"><a href="/ru/shop">Магазин</a></div>
 						<div class="menu__item"><a href="/ru/terms">Юридические термины</a></div>
-						<div class="menu__item _active">Связь с нами</div>
+						<div class="menu__item _there">Связь с нами</div>
 						<nav class="lang">
 							<button class="lang__button">Язык <i class="fa fa-bars"></i></button>
 							<ul hidden class="lang__list">

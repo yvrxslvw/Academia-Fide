@@ -37,7 +37,7 @@
 						<div hidden class="menu__title">Меню</div>
 						<div class="menu__item"><a href="/ru">Начало</a></div>
 						<div class="menu__item"><a href="/ru/about">О нас</a></div>
-						<div class="menu__item _active">Что мы делаем</div>
+						<div class="menu__item _there">Что мы делаем</div>
 						<div class="menu__item"><a href="/ru/classes">Активные еженедельные занятия</a></div>
 						<div class="menu__item"><a href="/ru/shop">Магазин</a></div>
 						<div class="menu__item"><a href="/ru/terms">Юридические термины</a></div>

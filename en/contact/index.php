@@ -41,7 +41,7 @@
 						<div class="menu__item"><a href="/en/classes">High performance weekly classes</a></div>
 						<div class="menu__item"><a href="/en/shop">Shop</a></div>
 						<div class="menu__item"><a href="/en/terms">Legal terms</a></div>
-						<div class="menu__item _active">Contact us</div>
+						<div class="menu__item _there">Contact us</div>
 						<nav class="lang">
 							<button class="lang__button">Language <i class="fa fa-bars"></i></button>
 							<ul hidden class="lang__list">

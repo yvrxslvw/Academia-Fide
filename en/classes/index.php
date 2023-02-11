@@ -38,7 +38,7 @@
 						<div class="menu__item"><a href="/en">Beginning</a></div>
 						<div class="menu__item"><a href="/en/about">About us</a></div>
 						<div class="menu__item"><a href="/en/doing">What do we do</a></div>
-						<div class="menu__item _active">High performance weekly classes</div>
+						<div class="menu__item _there">High performance weekly classes</div>
 						<div class="menu__item"><a href="/en/shop">Shop</a></div>
 						<div class="menu__item"><a href="/en/terms">Legal terms</a></div>
 						<div class="menu__item"><a href="/en/contact">Contact us</a></div>

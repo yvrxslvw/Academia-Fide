@@ -225,7 +225,7 @@ header {
 .header__menu .menu__item {
 	text-transform: uppercase;
 }
-.header__menu .menu__item._active {
+.header__menu .menu__item._there {
 	font-weight: 700;
 	color: #6F6F6F;
 }

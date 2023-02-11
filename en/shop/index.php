@@ -39,7 +39,7 @@
 						<div class="menu__item"><a href="/en/about">About us</a></div>
 						<div class="menu__item"><a href="/en/doing">What do we do</a></div>
 						<div class="menu__item"><a href="/en/classes">High performance weekly classes</a></div>
-						<div class="menu__item _active">Shop</div>
+						<div class="menu__item _there">Shop</div>
 						<div class="menu__item"><a href="/en/terms">Legal terms</a></div>
 						<div class="menu__item"><a href="/en/contact">Contact us</a></div>
 						<nav class="lang">

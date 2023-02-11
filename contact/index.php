@@ -41,7 +41,7 @@
 						<div class="menu__item"><a href="/classes">Clases semanales de alto rendimiento</a></div>
 						<div class="menu__item"><a href="/shop">Tienda</a></div>
 						<div class="menu__item"><a href="/terms">Términos legales</a></div>
-						<div class="menu__item _active">Contáctenos</div>
+						<div class="menu__item _there">Contáctenos</div>
 						<nav class="lang">
 							<button class="lang__button">Idioma <i class="fa fa-bars"></i></button>
 							<ul hidden class="lang__list">

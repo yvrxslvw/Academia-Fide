@@ -39,7 +39,7 @@
 						<div class="menu__item"><a href="/ru/about">О нас</a></div>
 						<div class="menu__item"><a href="/ru/doing">Что мы делаем</a></div>
 						<div class="menu__item"><a href="/ru/classes">Активные еженедельные занятия</a></div>
-						<div class="menu__item _active">Магазин</div>
+						<div class="menu__item _there">Магазин</div>
 						<div class="menu__item"><a href="/ru/terms">Юридические термины</a></div>
 						<div class="menu__item"><a href="/ru/contact">Связь с нами</a></div>
 						<nav class="lang">
