@@ -11,6 +11,6 @@
 		return;
 	}
 
-	$_SESSION['login'] = true;
+	$_SESSION['login'] = $_POST['login'];
 	header('Location: /admin/panel');
 ?>

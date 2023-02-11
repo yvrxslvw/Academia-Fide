@@ -10,58 +10,56 @@
 	$titleEs = $_POST['titleEs'];
 	$titleEn = $_POST['titleEn'];
 	$titleRu = $_POST['titleRu'];
-	$titleLink = $_POST['titleLink'];
 	$textEs = $_POST['textEs'];
 	$textEn = $_POST['textEn'];
 	$textRu = $_POST['textRu'];
 	
 	if(isset($_POST['delete'])) {
-		$result = mysqli_query($connect, "SELECT * FROM `latest posts` WHERE `id` = '$id'");
+		$result = mysqli_query($connect, "SELECT * FROM `courses` WHERE `id` = '$id'");
 		$row = mysqli_fetch_assoc($result);
 		unlink('../..' . $row['image']);
 
-		mysqli_query($connect, "DELETE FROM `latest posts` WHERE `id` = '$id'");
-		mysqli_query($connect, "ALTER TABLE `latest posts` AUTO_INCREMENT = 1");
+		mysqli_query($connect, "DELETE FROM `courses` WHERE `id` = '$id'");
+		mysqli_query($connect, "ALTER TABLE `courses` AUTO_INCREMENT = 1");
 
 		$admin = $_SESSION['login'];
-		$action = 'Deleted post ID: ' . $id . '.';
+		$action = 'Deleted product ID: ' . $id . '.';
 		$time = date('Y-m-d H:i:s');
 		mysqli_query($connect, "INSERT INTO `logs` (`admin`, `action`, `time`) VALUES ('$admin', '$action', '$time')");
 
-		$_SESSION['postMsg'] = 'deleted!';
+		$_SESSION['shopMsg'] = 'deleted!';
 		header('Location: /admin/panel');
 	} elseif(isset($_POST['edited'])) {
 		unset($_SESSION['edit']);
 		if(strlen($_FILES['image']['tmp_name'])) {
-			$path = '/assets/uploads/post' . $id . '.png';
+			$path = '/assets/uploads/shop' . $id . '.png';
 			if(!move_uploaded_file($_FILES['image']['tmp_name'], '../..' . $path)) {
 				$_SESSION['interErr'] = 'Image loading error.';
 				$_SESSION['edit'] = 1;
-				header('Location: interPost.php');
+				header('Location: interShop.php');
 				return;
 			}
 		}
 
-		mysqli_query($connect, "UPDATE `latest posts` SET 
+		mysqli_query($connect, "UPDATE `courses` SET 
 			`title` = '$titleEs', 
 			`title_en` = '$titleEn', 
 			`title_ru` = '$titleRu', 
-			`title link` = '$titleLink', 
 			`text` = '$textEs', 
 			`text_en` = '$textEn', 
 			`text_ru` = '$textRu' 
 			WHERE `id` = '$id'");
 
 		$admin = $_SESSION['login'];
-		$action = 'Edited post ID: ' . $id . '.';
+		$action = 'Edited product ID: ' . $id . '.';
 		$time = date('Y-m-d H:i:s');
 		mysqli_query($connect, "INSERT INTO `logs` (`admin`, `action`, `time`) VALUES ('$admin', '$action', '$time')");
 
-		$_SESSION['postMsg'] = 'edited!';
+		$_SESSION['shopMsg'] = 'edited!';
 		header('Location: /admin/panel');
 	} elseif(isset($_POST['created'])) {
 		unset($_SESSION['create']);
-		$result = mysqli_query($connect, "SELECT * FROM `latest posts`");
+		$result = mysqli_query($connect, "SELECT * FROM `courses`");
 		for($i = 1; $i <= mysqli_num_rows($result); $i++) {
 			$row = mysqli_fetch_assoc($result);
 			$id = $row['id'] + 1;
@@ -70,22 +68,21 @@
 		if(!$_FILES['image']['tmp_name']) {
 			$_SESSION['interErr'] = 'No image has been selected.';
 			$_SESSION['create'] = 1;
-			header('Location: interPost.php');
+			header('Location: interShop.php');
 			return;
 		}
-		$path = '/assets/uploads/post' . $id . '.png';
+		$path = '/assets/uploads/shop' . $id . '.png';
 		if(!move_uploaded_file($_FILES['image']['tmp_name'], '../..' . $path)) {
 			$_SESSION['interErr'] = 'Image loading error.';
-			header('Location: interPost.php');
+			header('Location: interShop.php');
 			return;
 		}
 
-		mysqli_query($connect, "INSERT INTO `latest posts` (
+		mysqli_query($connect, "INSERT INTO `courses` (
 			`image`, 
 			`title`, 
 			`title_en`, 
 			`title_ru`, 
-			`title link`, 
 			`text`, 
 			`text_en`, 
 			`text_ru`
@@ -94,18 +91,17 @@
 			'$titleEs', 
 			'$titleEn', 
 			'$titleRu', 
-			'$titleLink', 
 			'$textEs', 
 			'$textEn', 
 			'$textRu'
 		)");
 
 		$admin = $_SESSION['login'];
-		$action = 'Created post ID: ' . $id . '.';
+		$action = 'Created product ID: ' . $id . '.';
 		$time = date('Y-m-d H:i:s');
 		mysqli_query($connect, "INSERT INTO `logs` (`admin`, `action`, `time`) VALUES ('$admin', '$action', '$time')");
 
-		$_SESSION['postMsg'] = 'created!';
+		$_SESSION['shopMsg'] = 'created!';
 		header('Location: /admin/panel');
 	}
 ?>
@@ -125,10 +121,10 @@
 		<div class="panel">
 			<?php
 				if(isset($_POST['edit']) || $_SESSION['edit']) {
-					$result = mysqli_query($connect, "SELECT * FROM `latest posts` WHERE `id` = '$id'");
+					$result = mysqli_query($connect, "SELECT * FROM `courses` WHERE `id` = '$id'");
 					$row = mysqli_fetch_assoc($result);
 
-					echo '<form class="inter" action="interPost.php" method="post" enctype="multipart/form-data">';
+					echo '<form class="inter" action="interShop.php" method="post" enctype="multipart/form-data">';
 						echo '<input hidden value="' . $id . '" name="id">';
 						echo '<label>Image (only .png)</label>';
 						echo '<input type="file" name="image" accept=".png">';
@@ -138,8 +134,6 @@
 						echo '<textarea type="text" name="titleEn">' . $row['title_en'] . '</textarea>';
 						echo '<label>Title Russian</label>';
 						echo '<textarea type="text" name="titleRu">' . $row['title_ru'] . '</textarea>';
-						echo '<label>Title Link</label>';
-						echo '<textarea type="text" name="titleLink">' . $row['title link'] . '</textarea>';
 						echo '<label>Text Spanish</label>';
 						echo '<textarea type="text" name="textEs">' . $row['text'] . '</textarea>';
 						echo '<label>Text English</label>';
@@ -149,7 +143,7 @@
 						echo '<button name="edited">Edit</button>';
 					echo '</form>';
 				} elseif(isset($_POST['create']) || $_SESSION['create']) {
-					echo '<form class="inter" action="interPost.php" method="post" enctype="multipart/form-data">';
+					echo '<form class="inter" action="interShop.php" method="post" enctype="multipart/form-data">';
 						echo '<label>Image (only .png)</label>';
 						echo '<input type="file" name="image" accept=".png">';
 						echo '<label>Title Spanish</label>';
@@ -158,8 +152,6 @@
 						echo '<textarea type="text" name="titleEn"></textarea>';
 						echo '<label>Title Russian</label>';
 						echo '<textarea type="text" name="titleRu"></textarea>';
-						echo '<label>Title Link</label>';
-						echo '<textarea type="text" name="titleLink"></textarea>';
 						echo '<label>Text Spanish</label>';
 						echo '<textarea type="text" name="textEs"></textarea>';
 						echo '<label>Text English</label>';

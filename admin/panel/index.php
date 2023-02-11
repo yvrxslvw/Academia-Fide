@@ -23,6 +23,7 @@
 			<div class="menu main _active">
 				<p>admin panel</p>
 				<button onclick="openMenu('regAdm');">Register new Admin</button>
+				<button onclick="openMenu('shop');">Shop</button>
 				<button onclick="openMenu('latestPosts');">Latest posts</button>
 				<a href="/assets/vendor/signout.php">sign out</a>
 			</div>
@@ -49,29 +50,62 @@
 			</div>
 			<div class="menu latestPosts">
 				<p>latest posts</p>
-				<?php
-					$result = mysqli_query($connect, "SELECT * FROM `latest posts`");
-					echo '<h4>Number of posts: ' . mysqli_num_rows($result) . '</h4>';
-					for($i = 1; $i <= mysqli_num_rows($result); $i++) {
-						$row = mysqli_fetch_assoc($result);
-						
-						echo '<div class="latestPosts__item">';
-							echo '<form action="interPost.php" method="post">';
-								echo '<label>' . $row['title'] . '</label>';
-								echo '<input hidden name="id" value="' . $row['id'] . '">';
-								echo '<button name="delete">Delete</button>';
-								echo '<button name="edit">Edit</button>';
-							echo '</form>';
-						echo '</div>';
-					}
+				<div class="menu__list scroll">
+					<?php
+						$result = mysqli_query($connect, "SELECT * FROM `latest posts`");
+						echo '<h4>Number of posts: ' . mysqli_num_rows($result) . '</h4>';
+						for($i = 1; $i <= mysqli_num_rows($result); $i++) {
+							$row = mysqli_fetch_assoc($result);
+							
+							echo '<div class="item">';
+								echo '<form action="interPost.php" method="post">';
+									echo '<label>' . $row['title'] . '</label>';
+									echo '<input hidden name="id" value="' . $row['id'] . '">';
+									echo '<button name="delete">Delete</button>';
+									echo '<button name="edit">Edit</button>';
+								echo '</form>';
+							echo '</div>';
+						}
 
-					if($_SESSION['interMsg'])
-					{
-						echo '<h6>' . $_SESSION['interMsg'] . '</h6>';
-						unset($_SESSION['interMsg']);
-					}
-				?>
+						if($_SESSION['postMsg'])
+						{
+							echo '<h6>' . $_SESSION['postMsg'] . '</h6>';
+							unset($_SESSION['postMsg']);
+						}
+					?>
+				</div>
 				<form action="interPost.php" method="post">
+					<button name="create">Create new</button>
+				</form>
+				<button onclick="openMenu('main');">Back</button>
+			</div>
+			<div class="menu shop">
+				<p>shop</p>
+				<div class="menu__list scroll">
+					<?php
+						$result = mysqli_query($connect, "SELECT * FROM `courses`");
+						echo '<h4>Number of products: ' . mysqli_num_rows($result) . '</h4>';
+						for($i = 1; $i <= mysqli_num_rows($result); $i++) {
+							$row = mysqli_fetch_assoc($result);
+							
+							echo '<div class="item">';
+								echo '<form action="interShop.php" method="post">';
+									echo '<label>' . $row['title'] . '</label>';
+									echo '<input hidden name="id" value="' . $row['id'] . '">';
+									echo '<button name="delete">Delete</button>';
+									echo '<button name="edit">Edit</button>';
+								echo '</form>';
+							echo '</div>';
+						}
+
+						if($_SESSION['shopMsg'])
+						{
+							echo '<h6>' . $_SESSION['shopMsg'] . '</h6>';
+							unset($_SESSION['shopMsg']);
+						}
+					?>
+				</div>
+				<form action="interShop.php" method="post">
 					<button name="create">Create new</button>
 				</form>
 				<button onclick="openMenu('main');">Back</button>

@@ -15,6 +15,12 @@
 	$password = md5($_POST['password']);
 
 	mysqli_query($connect, "INSERT INTO `admin` (`login`, `password`) VALUES ('$login', '$password')");
+
+	$admin = $_SESSION['login'];
+	$action = 'Registered new Admin: ' . $_POST['login'] . '.';
+	$time = date('Y-m-d H:i:s');
+	mysqli_query($connect, "INSERT INTO `logs` (`admin`, `action`, `time`) VALUES ('$admin', '$action', '$time')");
+
 	$_SESSION['regMsg'] = 'registered!';
 	header('Location: /admin/panel');
 ?>

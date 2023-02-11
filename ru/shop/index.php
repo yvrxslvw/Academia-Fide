@@ -55,7 +55,28 @@
 			</div>
 		</header>
 		<main>
-			МАГАЗИН
+			<div class="content">
+				<div class="container">
+					<h1>Cursos Academia Fide</h1>
+					<div class="shop">
+						<?php
+							$result = mysqli_query($connect, "SELECT * FROM `courses`");
+
+							if(mysqli_num_rows($result) == 0) echo '<h2>Товара ещё нет. :(</h2>';
+
+							for($i = 0; $i < mysqli_num_rows($result); $i++) {
+								$row = mysqli_fetch_assoc($result);
+
+								echo '<a href="#" class="shop__item">';
+									echo '<img src="' . $row['image'] . '">';
+									echo '<h2>' . $row['title_ru'] . '</h2>';
+									echo '<p>' . $row['text_ru'] . '</p>';
+								echo '</a>';
+							}
+						?>
+					</div>
+				</div>
+			</div>
 		</main>
 		<footer>
 			<div class="footer__info">
