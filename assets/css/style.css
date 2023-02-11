@@ -464,6 +464,37 @@ main {
 	white-space: pre-wrap;
 }
 
+.error {
+	text-align: center;
+	background-color: rgba(155, 155, 155, .1);
+	padding: 10px 20px;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px rgba(155, 155, 155, .2);
+	position: relative;
+	margin: 150px 0px 0px 0px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 600px;
+}
+.error img {
+	max-width: 150px;
+}
+.error h2 {
+	margin: 0px 0px 25px 0px;
+}
+.error p {
+	margin: 0px 0px 25px 0px;
+}
+.error button {
+	background-color: #bebebe;
+	border-radius: 5px;
+	padding: 10px 15px;
+	font-weight: 700;
+	font-size: 20px;
+	color: #F8F8F8;
+}
+
 .post__item img {
 	max-width: 50%;
 	margin: 0px 0px 10px 0px;
