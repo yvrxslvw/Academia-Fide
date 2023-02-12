@@ -59,13 +59,6 @@ document.addEventListener('click', (event) => {
 	if(!event.target.closest('.header__menu')) {
 		menu.classList.remove('_active');
 	}
-
-	if(event.target.closest('.post__img')) {
-		event.target.classList.toggle('_active');
-	}
-	if(!event.target.closest('.post__img')) {
-		event.target.classList.remove('_active');
-	}
 });
 
 

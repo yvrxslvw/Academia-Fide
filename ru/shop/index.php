@@ -36,12 +36,13 @@
 					<div class="menu__body">
 						<div hidden class="menu__title">Меню</div>
 						<div class="menu__item"><a href="/ru">Начало</a></div>
+						<div class="menu__item"><a href="/ru">Начало</a></div>
 						<div class="menu__item"><a href="/ru/about">О нас</a></div>
-						<div class="menu__item"><a href="/ru/doing">Что мы делаем</a></div>
-						<div class="menu__item"><a href="/ru/classes">Активные еженедельные занятия</a></div>
+						<div class="menu__item"><a href="/ru/doing">Деятельность</a></div>
+						<div class="menu__item"><a href="/ru/classes">Продвинутый уровень</a></div>
 						<div class="menu__item _there">Магазин</div>
-						<div class="menu__item"><a href="/ru/terms">Юридические термины</a></div>
-						<div class="menu__item"><a href="/ru/contact">Связь с нами</a></div>
+						<div class="menu__item"><a href="/ru/terms">Условия</a></div>
+						<div class="menu__item"><a href="/ru/contact">Контакты</a></div>
 						<nav class="lang">
 							<button class="lang__button">Язык <i class="fa fa-bars"></i></button>
 							<ul hidden class="lang__list">
@@ -57,7 +58,7 @@
 		<main>
 			<div class="content">
 				<div class="container">
-					<h1>Cursos Academia Fide</h1>
+					<h1>Курсы Academia Fide</h1>
 					<div class="shop">
 						<?php
 							$result = mysqli_query($connect, "SELECT * FROM `courses`");
@@ -83,8 +84,8 @@
 				<div class="container">
 					<div class="info__body">
 						<div class="info__item">
-							<h3>Что мы делаем в Академии Fide</h3>
-							<p>Организация семинаров Fide для получения титулов тренера от Международной Шахматной Федерации. Продажа видео и шахматного материала.</p>
+							<h3>О нас</h3>
+							<p>Организация семинаров для получения титула гроссмейстера.</p>
 						</div>
 						<div class="info__item">
 							<h3>Последние публикации</h3>
@@ -101,7 +102,7 @@
 							?>
 						</div>
 						<div class="info__item">
-							<h3>ГДЕ МЫ</h3>
+							<h3>Контакты</h3>
 							<p>Телефон: <a href="tel:+34722369868">+34 722 369 868</a></p>
 							<p>Эл.почта: <a href="mailto:fideacademia@gmail.com" target="_blank">fideacademia@gmail.com</a></p>
 							<p>Сайт: <a href="https://www.academiafide.com">https://www.academiafide.com</a></p>

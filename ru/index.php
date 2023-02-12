@@ -37,11 +37,11 @@
 						<div hidden class="menu__title">Меню</div>
 						<div class="menu__item _there">Начало</div>
 						<div class="menu__item"><a href="/ru/about">О нас</a></div>
-						<div class="menu__item"><a href="/ru/doing">Что мы делаем</a></div>
-						<div class="menu__item"><a href="/ru/classes">Активные еженедельные занятия</a></div>
+						<div class="menu__item"><a href="/ru/doing">Деятельность</a></div>
+						<div class="menu__item"><a href="/ru/classes">Продвинутый уровень</a></div>
 						<div class="menu__item"><a href="/ru/shop">Магазин</a></div>
-						<div class="menu__item"><a href="/ru/terms">Юридические термины</a></div>
-						<div class="menu__item"><a href="/ru/contact">Связь с нами</a></div>
+						<div class="menu__item"><a href="/ru/terms">Условия</a></div>
+						<div class="menu__item"><a href="/ru/contact">Контакты</a></div>
 						<nav class="lang">
 							<button class="lang__button">Язык <i class="fa fa-bars"></i></button>
 							<ul hidden class="lang__list">
@@ -61,18 +61,15 @@
 				<img src="/assets/images/chess3.jpg">
 				<div class="slider__body">
 					<div class="slider__item _active">
-						<h2>Высокоэффективные еженедельные занятия</h2>
-						<h3>Онлайн групповые занятия Академии Fide предназначенные для турнирных игроков, особенно рекомендуемые для игроков от 2000 до 2400 рейтинга...</h3>
+						<h2>Еженедельные занятия для игроков продвинутого уровня</h2>
 						<a href="/ru/classes">УЗНАТЬ БОЛЬШЕ</a>
 					</div>
 					<div class="slider__item">
-						<h2>О НАС</h2>
-						<h3>Наша история после многих лет тренерской работы...</h3>
+						<h2>Наша история</h2>
 						<a href="/ru/about">УЗНАТЬ БОЛЬШЕ</a>
 					</div>
 					<div class="slider__item">
 						<h2>МАГАЗИН</h2>
-						<h3>Теперь вы можете увидеть все семинары, проводимые в Academia Fide...</h3>
 						<a href="/ru/shop">УЗНАТЬ БОЛЬШЕ</a>
 					</div>
 					<div class="slider__nav">
@@ -88,18 +85,18 @@
 					<div class="description__row">
 						<div class="description__item">
 							<div class="description__img"><img src="/assets/images/chess1.jpg"></div>
-							<h3>ВЫСОКОЭФФЕКТИВНЫЕ ЕЖЕНЕДЕЛЬНЫЕ ЗАНЯТИЯ</h3>
-							<h4>Групповые онлайн-классы Академии Fide Предназначены для турнирных игроков, особенно рекомендуется для игроков с рейтингом между 2000 и 2400. Различные темы разных фаз игры будут изучаться в основном посредством игрового анализа. Будет применен практический подход, ориентированный на решение проблем, с которыми мы сталкиваемся в <a href="/ru/classes">[...]</a></h4>
+							<h3>ЕЖЕНЕДЕЛЬНЫЕ ЗАНЯТИЯ ДЛЯ ИГРОКОВ ПРОДВИНУТОГО УРОВНЯ</h3>
+							<h4><a href="/ru/classes">Читать далее...</a></h4>
 						</div>
 						<div class="description__item">
 							<div class="description__img"><img src="/assets/images/chess2.jpg"></div>
-							<h3>О НАС</h3>
-							<h4>Наша история После многих лет работы тренерами MF и FT Адриан Рандаццо и GM и FT Фернандо Перальта решили объединить усилия в проекте, который позволил бы нам оптимально передать наши знания и опыт. Видение Адриана, имеющего большой опыт работы тренером и преподавателем, дополняется видением <a href="/ru/about">[...]</a></h4>
+							<h3>Наша история</h3>
+							<h4><a href="/ru/about">Читать далее...</a></h4>
 						</div>
 						<div class="description__item">
 							<div class="description__img"><img src="/assets/images/chess3.jpg"></div>
 							<h3>МАГАЗИН</h3>
-							<h4>Теперь вы можете увидеть все семинары, проводимые в Academia Fide, а также получить качественные технические видео, сделанные нашими мастерами и гроссмейстерами. Мы даем вам возможность оплатить их различными способами, такими как безопасная оплата с помощью дебетовой / кредитной карты, Paypal или банковского перевода <a href="/ru/shop">[...]</a></h4>
+							<h4><a href="/ru/shop">Читать далее...</a></h4>
 						</div>
 					</div>
 				</div>
@@ -137,7 +134,7 @@
 						<div class="search">
 							<div class="search__title">Поиск по сайту:</div>
 							<div class="search__input">
-								<input type="text" placeholder="Лекции по...">
+								<input type="text" placeholder="Курсы...">
 								<button>Поиск</button>
 							</div>
 						</div>
@@ -150,8 +147,8 @@
 				<div class="container">
 					<div class="info__body">
 						<div class="info__item">
-							<h3>Что мы делаем в Академии Fide</h3>
-							<p>Организация семинаров Fide для получения титулов тренера от Международной Шахматной Федерации. Продажа видео и шахматного материала.</p>
+							<h3>О нас</h3>
+							<p>Организация семинаров для получения титула гроссмейстера.</p>
 						</div>
 						<div class="info__item">
 							<h3>Последние публикации</h3>
@@ -168,9 +165,9 @@
 							?>
 						</div>
 						<div class="info__item">
-							<h3>ГДЕ МЫ</h3>
+							<h3>Контакты</h3>
 							<p>Телефон: <a href="tel:+34722369868">+34 722 369 868</a></p>
-							<p>Эл.почта: <a href="mailto:fideacademia@gmail.com" target="_blank">fideacademia@gmail.com</a></p>
+							<p>Эл.адрес: <a href="mailto:fideacademia@gmail.com" target="_blank">fideacademia@gmail.com</a></p>
 							<p>Сайт: <a href="https://www.academiafide.com">https://www.academiafide.com</a></p>
 							<div class="info__links">
 								<a href="https://www.facebook.com/academiafide"><div class="info__circle"><i class="fa fa-facebook"></i></div></a>
