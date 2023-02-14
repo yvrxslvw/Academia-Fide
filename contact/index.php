@@ -58,7 +58,6 @@
 			<div class="content">
 				<div class="container">
 					<div class="post__item">
-						<h2>Para contactarnos usa:</h2>
 						<p>Teléfono <a href="tel:+34722369868">+34 722 369 868</a></p>
 						<p>Correo electrónico <a href="mailto:fideacademia@gmail.com">fideacademia@gmail.com</a></p>
 						<p>Facebook <a href="https://www.facebook.com/academiafide">https://www.facebook.com/academiafide</a></p>

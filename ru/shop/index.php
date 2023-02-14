@@ -36,7 +36,6 @@
 					<div class="menu__body">
 						<div hidden class="menu__title">Меню</div>
 						<div class="menu__item"><a href="/ru">Начало</a></div>
-						<div class="menu__item"><a href="/ru">Начало</a></div>
 						<div class="menu__item"><a href="/ru/about">О нас</a></div>
 						<div class="menu__item"><a href="/ru/doing">Деятельность</a></div>
 						<div class="menu__item"><a href="/ru/classes">Продвинутый уровень</a></div>
@@ -85,7 +84,7 @@
 					<div class="info__body">
 						<div class="info__item">
 							<h3>О нас</h3>
-							<p>Организация семинаров для получения титула гроссмейстера.</p>
+							<p>Организация семинаров для получения титула гроссмейстера. Продажа видеоматериалов с курсами по шахматам.</p>
 						</div>
 						<div class="info__item">
 							<h3>Последние публикации</h3>
