@@ -55,7 +55,49 @@
 			</div>
 		</header>
 		<main>
-			ABOUT US
+			<div class="content">
+				<div class="container">
+					<h1>About us</h1>
+					<div class="post__item">
+						<h2>Our brief history</h2>
+						<p>After many years as coaches, MF and FT Adrián Randazzo and GM and FT Fernando Peralta decided to join forces in a project that would allow us to optimally transmit our knowledge and experience. Adrián's vision, with extensive experience as a coach and teacher educator, is complemented by that of Fernando, a highly competitive coach and professional player.</p>
+						<p>In March 2016, the Academy approved the operation of the "FIDE Comandante Luis Piedra Buena Academy", the first official Academy recognized by the International Chess Federation in all of Latin America.</p>
+						<p>This allowed us to have the appropriate tools to educate and train players as well as train educators, always with content, ways of working and qualifications with international recognition.</p>
+					</div>
+					<div class="post__item">
+						<h2>Our experience as an Academy</h2>
+						<p>Despite our short existence, FIDE Academy is very active. We have had the opportunity to organize numerous seminars that awarded degrees recognized by the Academy both in person and online. We work throughout the school year training teachers from different educational institutions, providing them with a work program and continuous monitoring of their activities.</p>
+					</div>
+					<div class="post__item">
+						<h2>Some data:</h2>
+						<p>- We give online master classes by renowned international qualified players;</p>
+						<p>- Students from Argentina, Bolivia, Chile, Colombia, Ecuador, Spain, Mexico, Paraguay, Peru and Uruguay participated in our classes and seminars;</p>
+						<p>- 89 official FIDE titles were awarded;</p>
+						<p>- We continuously train more than 160 teachers from primary, secondary and university educational establishments throughout the school year.</p>
+					</div>
+					<h1>Meet our team</h1>
+					<div class="post__item">
+						<h2>Adrián Randazzo</h2>
+						<img src="/assets/images/adrian.jpg">
+						<p>- Founder and FIDE Master;</p>
+						<p>- FIDE Executive Trainer;</p>
+						<p>- Trainer and Master of the International Chess Federation;</p>
+						<p>- More than 20 years of experience working as a coach and Chess teacher.</p>
+					</div>
+					<div class="post__item">
+						<h2>Fernando Peralta</h2>
+						<img src="/assets/images/fernando.jpg">
+						<p>- International Grandmaster;</p>
+						<p>- FIDE Trainer;</p>
+						<p>- International Chess Grand Master;</p>
+						<p>- Argentine representative in 7 Olympics;</p>
+						<p>- Argentine Champion twice;</p>
+						<p>- Winner of numerous international open in Europe and America;</p>
+						<p>- More than 15 years of experience as a high performance chess teacher and coach;</p>
+						<p>- Registered in the official register of sports professionals in Catalonia as a professional sports monitor and professional chess coach.</p>
+					</div>
+				</div>
+			</div>
 		</main>
 		<footer>
 			<div class="footer__info">

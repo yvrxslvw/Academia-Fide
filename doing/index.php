@@ -55,7 +55,30 @@
 			</div>
 		</header>
 		<main>
-			A QUÉ NOS DEDICAMOS
+			<div class="content">
+				<div class="container">
+					<h1>A qué nos dedicamos</h1>
+					<div class="post__item">
+						<h2>Enseñanza Básica y Alto Rendimiento</h2>
+						<p>- Organización de Campus de Entrenamiento de Ajedrez con certificados de participación oficiales;</p>
+						<p>- Dictado de cursos grupales e individuales, tanto de manera presencial como online, abarcando todas las fases del desarrollo ajedrecístico, desde la escolar, hasta el entrenamiento de alto rendimiento para competencia.</p>
+					</div>
+					<div class="post__item">
+						<h2>Academia de Instructores</h2>
+						<p>- Organización de Seminarios para la obtención de Títulos de Entrenadores de la Federación Internacional de Ajedrez.</p>
+					</div>
+					<div class="post__item">
+						<h2>Organización de Torneos</h2>
+						<p>- Organización de torneos internos y/o abiertos con validez para el Ránking Internacional (ELO).</p>
+					</div>
+					<div class="post__item">
+						<h2>Difusión del Ajedrez</h2>
+						<p>- Academia Fide dedica su tiempo a la difusión del ajedrez como herramienta educativa, formando profesores de ajedrez con bases internacionales. Ellos desarrollarán proyectos de clases de ajedrez en diferentes establecimientos educativos en todo el mundo;</p>
+						<p>- También Academia Fide difunde el ajedrez de alta competencia, funcionando como escuela de alto rendimiento en Ajedrez. Es organizadora de diferentes competencias y actividades nacionales e internacionales, de manera presencial y online;</p>
+						<p>- No importa donde estés, nosotros te brindaremos las herramientas para que puedas formarte y progresar en la práctica del juego.</p>
+					</div>
+				</div>
+			</div>
 		</main>
 		<footer>
 			<div class="footer__info">

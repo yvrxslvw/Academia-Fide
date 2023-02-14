@@ -55,7 +55,49 @@
 			</div>
 		</header>
 		<main>
-			QUIÉNES SOMOS
+			<div class="content">
+				<div class="container">
+					<h1>Quiénes Somos</h1>
+					<div class="post__item">
+						<h2>Nuestra breve historia</h2>
+						<p>Después de muchos años como entrenadores el MF y FT Adrián Randazzo y el GM y FT Fernando Peralta decidimos juntar esfuerzos en un proyecto que nos permitiera transmitir de manera óptima nuestros conocimientos y experiencia. La visión Adrián con una larga experiencia como entrenador y educador docente se complementa con la de Fernando, entrenador de alta competencia y jugador profesional.</p>
+						<p>En marzo de 2016, la Academia aprobó el funcionamiento de la “Academia FIDE Comandante Luis Piedra Buena”, la primera Academia oficial reconocida por la Federación Internacional de Ajedrez en toda Latinoamérica.</p>
+						<p>Esto nos permitió contar con las herramientas adecuadas para formar y entrenar jugadores así como capacitar educadores, siempre con contenidos, formas de trabajo y títulos habilitantes con reconocimiento internacional.</p>
+					</div>
+					<div class="post__item">
+						<h2>Nuestra experencia como Academia</h2>
+						<p>A pesar de nuestra corta existencia Academia FIDE es muy activa. Hemos tenido oportunidad de organizar numerosos seminarios que otorgaron títulos reconocidos por la Academia tanto de manera presencial como online. Trabajamos durante todo el año lectivo escolar capacitando profesores de diferentes instituciones educativas, brindándoles un programa de trabajo y un seguimiento continuo en sus actividades.</p>
+					</div>
+					<div class="post__item">
+						<h2>Algunos datos:</h2>
+						<p>- Dictamos clases magistrales online a cargo de reconocidos jugadores internacionales titulados;</p>
+						<p>- Participaron en nuestras clases y seminarios alumnos de Argentina, Bolivia, Chile, Colombia, Ecuador, España, México, Paraguay, Perú y Uruguay;</p>
+						<p>- Se otorgaron 89 títulos oficiales de FIDE;</p>
+						<p>- Capacitamos de manera continuada durante todo el año lectivo a más de 160 docentes de establecimientos educativos primarios, secundarios y universitarios.</p>
+					</div>
+					<h1>Conoce nos equipo</h1>
+					<div class="post__item">
+						<h2>Adrián Randazzo</h2>
+						<img src="/assets/images/adrian.jpg">
+						<p>- Fundador y Maestro FIDE;</p>
+						<p>- FIDE Trainer ejecutivo;</p>
+						<p>- Entrenador y Maestro de la Federación Internacional de Ajedrez;</p>
+						<p>- Mas de 20 años de experiencia en el trabajo como entrenador y profesor de Ajedrez.</p>
+					</div>
+					<div class="post__item">
+						<h2>Fernando Peralta</h2>
+						<img src="/assets/images/fernando.jpg">
+						<p>- Gran Maestro Internacional;</p>
+						<p>- FIDE Trainer;</p>
+						<p>- Gran Maestro Internacional de ajedrez;</p>
+						<p>- Representante argentino en 7 Olimpiadas;</p>
+						<p>- Campeón de Argentina en dos ocasiones;</p>
+						<p>- Ganador de numerosos abiertos internacionales en Europa y América;</p>
+						<p>- Más de 15 años de experiencia como profesor y entrenador de ajedrez de alto rendimiento;</p>
+						<p>- Inscripto en el registro oficial de profesionales del deporte de Catalunya como monitor deportivo profesional y entrenador profesional de ajedrez.</p>
+					</div>
+				</div>
+			</div>
 		</main>
 		<footer>
 			<div class="footer__info">

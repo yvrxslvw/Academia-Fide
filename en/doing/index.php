@@ -55,7 +55,30 @@
 			</div>
 		</header>
 		<main>
-			WHAT DO WE DO
+			<div class="content">
+				<div class="container">
+					<h1>Our activity</h1>
+					<div class="post__item">
+						<h2>Basic Education and Advanced Education</h2>
+						<p>- Organization of Chess Training Camps with official participation certificates;</p>
+						<p>- Teaching group and individual courses, both in person and online, covering all phases of chess development, training from school to advanced for competition.</p>
+					</div>
+					<div class="post__item">
+						<h2>Instructors Academy</h2>
+						<p>- Organization of Seminars to obtain Coaches Titles of the International Chess Federation.</p>
+					</div>
+					<div class="post__item">
+						<h2>Organization of Tournaments</h2>
+						<p>- Organization of internal and/or open tournaments valid for the International Ranking (ELO).</p>
+					</div>
+					<div class="post__item">
+						<h2>Diffusion of Chess</h2>
+						<p>- Academia Fide dedicates its time to the dissemination of chess as an educational tool, training chess teachers with international bases. They will develop chess class projects in different educational establishments around the world;</p>
+						<p>- Academia also spreads highly competitive chess, functioning as a high performance Chess school. It is the organizer of different national and international competitions and activities, in person and online;</p>
+						<p>- No matter where you are, we will provide you with the tools so, that you can train and progress in the practice of the game.</p>
+					</div>
+				</div>
+			</div>
 		</main>
 		<footer>
 			<div class="footer__info">

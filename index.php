@@ -62,17 +62,14 @@
 				<div class="slider__body">
 					<div class="slider__item _active">
 						<h2>CLASES SEMANALES DE ALTO RENDIMIENTO</h2>
-						<h3>Clases Grupales Online de Academia FIDE Dirigidas al jugador de torneo, recomendadas especialmente para jugadores entre 2000 y 2400 de ranking...</h3>
 						<a href="/classes">LEER MÁS</a>
 					</div>
 					<div class="slider__item">
 						<h2>QUIÉNES SOMOS</h2>
-						<h3>Nuestra Historia Después de muchos años como entrenadores...</h3>
 						<a href="/about">LEER MÁS</a>
 					</div>
 					<div class="slider__item">
 						<h2>TIENDA</h2>
-						<h3>Ahora puedes ver todos los seminarios realizados en Academia Fide...</h3>
 						<a href="/shop">LEER MÁS</a>
 					</div>
 					<div class="slider__nav">
@@ -89,17 +86,17 @@
 						<div class="description__item">
 							<div class="description__img"><img src="/assets/images/chess1.jpg"></div>
 							<h3>CLASES SEMANALES DE ALTO RENDIMIENTO</h3>
-							<h4>Clases Grupales Online de Academia FIDE Dirigidas al jugador de torneo, recomendadas especialmente para jugadores entre 2000 y 2400 de ranking. Se estudiarán diversos temas de las diferentes fases del juego a través principalmente del análisis de partidas. Se aplicará un enfoque práctico, orientado a resolver los problemas con los que nos encontramos en las <a href="/classes">[...]</a></h4>
+							<a href="/classes">Leer más...</a>
 						</div>
 						<div class="description__item">
 							<div class="description__img"><img src="/assets/images/chess2.jpg"></div>
 							<h3>QUIÉNES SOMOS</h3>
-							<h4>Nuestra Historia Después de muchos años como entrenadores el MF y FT Adrián Randazzo y el GM y FT Fernando Peralta decidimos juntar esfuerzos en un proyecto que nos permitiera transmitir de manera óptima nuestros conocimientos y experiencia. La visión Adrián con una larga experiencia como entrenador y educador docente se complementa con la de <a href="/about">[...]</a></h4>
+							<a href="/about">Leer más...</a>
 						</div>
 						<div class="description__item">
 							<div class="description__img"><img src="/assets/images/chess3.jpg"></div>
 							<h3>TIENDA</h3>
-							<h4>Ahora puedes ver todos los seminarios realizados en Academia Fide , como así también obtener videos de alta calidad técnica realizado por nuestros Maestros y Grandes Maestros. Te damos la posibilidad de realizar el pago de los mismos en diferentes modalidades como pago seguro con tarjeta de debito/crédito, Paypal o bien transferencia bancaria <a href="/shop">[...]</a></h4>
+							<a href="/shop">Leer más...</a>
 						</div>
 					</div>
 				</div>

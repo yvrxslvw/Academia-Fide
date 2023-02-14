@@ -70,12 +70,16 @@ h1 {
 	font-size: 36px;
 	text-align: center;
 	margin: 0px 0px 50px 0px;
+	text-transform: uppercase;
+	font-weight: 700;
+	line-height: 150%;
 }
 
 h2 {
 	font-size: 24px;
 	font-weight: 700;
 	margin: 0px 0px 10px 0px;
+	text-transform: uppercase;
 }
 
 p {
@@ -337,7 +341,7 @@ main {
 }
 
 .slider__body h2 {
-	margin: 0px 0px 25px 0px;
+	margin: 0px 0px 40px 0px;
 	font-weight: 700;
 	font-size: 32px;
 	text-transform: uppercase;
@@ -434,6 +438,10 @@ main {
 	width: 125%;
 }
 
+.description__item a {
+	font-weight: 700;
+}
+
 /* Content Row */
 .content__row {
 	display: flex;
@@ -496,7 +504,7 @@ main {
 }
 
 .post__item img {
-	max-width: 50%;
+	width: 50%;
 	margin: 0px 0px 10px 0px;
 }
 .post__img._active {
@@ -508,7 +516,7 @@ main {
 }
 
 .post__item h2 {
-	margin: 0px 0px 10px 0px;
+	margin: 0px 0px 20px 0px;
 }
 
 .post__item p {

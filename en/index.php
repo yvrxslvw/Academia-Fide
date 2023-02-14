@@ -62,17 +62,14 @@
 				<div class="slider__body">
 					<div class="slider__item _active">
 						<h2>HIGH PERFORMANCE WEEKLY CLASSES</h2>
-						<h3>Fide Academy Online Group Classes Aimed at tournament players, especially recommended for players between 2000 and 2400 ranking...</h3>
 						<a href="/en/classes">READ MORE</a>
 					</div>
 					<div class="slider__item">
 						<h2>ABOUT US</h2>
-						<h3>Our Story After many years as coaches...</h3>
 						<a href="/en/about">READ MORE</a>
 					</div>
 					<div class="slider__item">
 						<h2>SHOP</h2>
-						<h3>Now you can see all the seminars held at Academia Fide...</h3>
 						<a href="/en/shop">READ MORE</a>
 					</div>
 					<div class="slider__nav">
@@ -89,17 +86,17 @@
 						<div class="description__item">
 							<div class="description__img"><img src="/assets/images/chess1.jpg"></div>
 							<h3>HIGH PERFORMANCE WEEKLY CLASSES</h3>
-							<h4>Fide Academy Online group classes aimed at tournament players, especially recommended for players between 2000 and 2400 ranking. Various topics of the different phases of the game will be studied mainly through game analysis. A practical approach will be applied, oriented to solve the problems that we find ourselves in the <a href="/en/classes">[...]</a></h4>
+							<a href="/classes">Read more...</a>
 						</div>
 						<div class="description__item">
 							<div class="description__img"><img src="/assets/images/chess2.jpg"></div>
 							<h3>ABOUT US</h3>
-							<h4>Our History After many years as coaches, MF and FT Adrián Randazzo and GM and FT Fernando Peralta decided to join forces in a project that would allow us to optimally transmit our knowledge and experience. Adrián\'s vision, with extensive experience as a trainer and teacher educator, is complemented by that of <a href="/en/about">[...]</a></h4>
+							<a href="/about">Read more...</a>
 						</div>
 						<div class="description__item">
 							<div class="description__img"><img src="/assets/images/chess3.jpg"></div>
 							<h3>SHOP</h3>
-							<h4>Now you can see all the seminars held at Academia Fide, as well as obtain high quality technical videos made by our Masters and Grand Masters. We give you the possibility of paying them in different ways such as secure payment with debit/credit card, Paypal or bank transfer <a href="/en/shop">[...]</a></h4>
+							<a href="/shop">Read more...</a>
 						</div>
 					</div>
 				</div>
