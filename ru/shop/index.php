@@ -37,7 +37,7 @@
 						<div hidden class="menu__title">Меню</div>
 						<div class="menu__item"><a href="/ru">Начало</a></div>
 						<div class="menu__item"><a href="/ru/about">О нас</a></div>
-						<div class="menu__item"><a href="/ru/doing">Деятельность</a></div>
+						<div class="menu__item"><a href="/ru/activity">Деятельность</a></div>
 						<div class="menu__item"><a href="/ru/classes">Продвинутый уровень</a></div>
 						<div class="menu__item _there">Магазин</div>
 						<div class="menu__item"><a href="/ru/terms">Условия</a></div>

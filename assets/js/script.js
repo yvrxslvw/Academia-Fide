@@ -60,10 +60,3 @@ document.addEventListener('click', (event) => {
 		menu.classList.remove('_active');
 	}
 });
-
-
-
-// OTHER
-const currPage = window.location.pathname;
-
-if(currPage === '/' || currPage === '/en/' || currPage === '/ru/') document.querySelector('main').style.margin = '0px 0px 50px 0px';

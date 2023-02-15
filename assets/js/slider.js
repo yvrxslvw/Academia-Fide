@@ -1,4 +1,6 @@
 // SLIDER
+document.querySelector('main').style.margin = '0px 0px 50px 0px';
+
 const navs = document.querySelectorAll('.nav');
 const sliderImage = document.querySelectorAll('.slider img');
 const sliderText = document.querySelectorAll('.slider__item');
