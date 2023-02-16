@@ -7,6 +7,7 @@
 	}
 
 	$id = $_POST['id'];
+	$price = $_POST['price'];
 	$titleEs = $_POST['titleEs'];
 	$titleEn = $_POST['titleEn'];
 	$titleRu = $_POST['titleRu'];
@@ -42,6 +43,7 @@
 		}
 
 		mysqli_query($connect, "UPDATE `courses` SET 
+			`price` = '$price',
 			`title` = '$titleEs', 
 			`title_en` = '$titleEn', 
 			`title_ru` = '$titleRu', 
@@ -79,6 +81,7 @@
 		}
 
 		mysqli_query($connect, "INSERT INTO `courses` (
+			`price`,
 			`image`, 
 			`title`, 
 			`title_en`, 
@@ -87,6 +90,7 @@
 			`text_en`, 
 			`text_ru`
 		) VALUES (
+			'$price',
 			'$path', 
 			'$titleEs', 
 			'$titleEn', 
@@ -128,6 +132,8 @@
 						echo '<input hidden value="' . $id . '" name="id">';
 						echo '<label>Image (only .png)</label>';
 						echo '<input type="file" name="image" accept=".png">';
+						echo '<label>Price</label>';
+						echo '<textarea type="text" name="price">' . $row['price'] . '</textarea>';
 						echo '<label>Title Spanish</label>';
 						echo '<textarea type="text" name="titleEs">' . $row['title'] . '</textarea>';
 						echo '<label>Title English</label>';
@@ -146,6 +152,8 @@
 					echo '<form class="inter" action="interShop.php" method="post" enctype="multipart/form-data">';
 						echo '<label>Image (only .png)</label>';
 						echo '<input type="file" name="image" accept=".png">';
+						echo '<label>Price</label>';
+						echo '<textarea type="text" name="price"></textarea>';
 						echo '<label>Title Spanish</label>';
 						echo '<textarea type="text" name="titleEs"></textarea>';
 						echo '<label>Title English</label>';

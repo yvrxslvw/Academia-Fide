@@ -55,7 +55,20 @@
 			</div>
 		</header>
 		<main>
-			TÉRMINOS LEGALES
+			<div class="content">
+				<div class="container">
+					<div class="post__item">
+						<p>Todos los derechos de autor de este recurso web www.academiafide.com (en adelante, el sitio web), así como de las lecciones en video, los materiales en video y las sesiones personales con entrenadores, están registrados y son propiedad de la organización Academia FIDE.</p>
+						<p>Bajo estos derechos, no puede copiar/distribuir para uso personal los tutoriales en video y los videos que se venden en este sitio web. También está prohibido copiar/utilizar para fines personales el diseño y contenido del sitio web.</p>
+					</div>
+					<div class="post__item">
+						<p>La categoría de precio para cada lección de video o material de video, así como para los cursos para cada nivel, se indica de antemano en la página de la tienda del sitio web.</p>
+						<p>Al comprar lecciones personales con entrenadores de la FIDE, el precio y las condiciones se negocian por adelantado.</p>
+						<p>Si el visitante del sitio web (en lo sucesivo, el cliente) no recibió el material de video como tal, entonces tiene derecho a recuperar el dinero gastado en la compra de cualquier material.</p>
+						<p>La calidad de la enseñanza en lecciones personales, en materiales de video, en lecciones de video y en seminarios no está sujeta a apelación.</p>
+					</div>
+				</div>
+			</div>
 		</main>
 		<footer>
 			<div class="footer__info">

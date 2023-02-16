@@ -130,14 +130,6 @@
 								</form>
 							</div>
 						</div>
-
-						<div class="search">
-							<div class="search__title">Búsqueda de sitio:</div>
-							<div class="search__input">
-								<input type="text" placeholder="Clases...">
-								<button>Buscar</button>
-							</div>
-						</div>
 					</div>
 				</div>
 			</div>

@@ -25,6 +25,7 @@
 				<button onclick="openMenu('regAdm');">Register new Admin</button>
 				<button onclick="openMenu('shop');">Shop</button>
 				<button onclick="openMenu('latestPosts');">Latest posts</button>
+				<button onclick="location.href = '/admin/logs';">Logs</button>
 				<a href="/assets/vendor/signout.php">sign out</a>
 			</div>
 			<div class="menu regAdm">

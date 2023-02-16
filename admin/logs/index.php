@@ -1,7 +1,7 @@
 <?php
 	session_start();
 	require_once '../../assets/vendor/init.php';
-	if($_SESSION['login'] != 'yvrxslvw') {
+	if(!$_SESSION['login']) {
 		header('Location: /');
 		return;
 	}
@@ -40,6 +40,7 @@
 					}
 				?>
 			</div>
+			<button onclick="location.href = '/admin';">Back</button>
 		</div>
 	</div>
 </body>

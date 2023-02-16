@@ -96,6 +96,11 @@
 						<p>- More than 15 years of experience as a high performance chess teacher and coach;</p>
 						<p>- Registered in the official register of sports professionals in Catalonia as a professional sports monitor and professional chess coach.</p>
 					</div>
+					<div class="post__item">
+						<h2>Alejo de Dovitiis</h2>
+						<img src="/assets/images/Alejo.jpg">
+						<p>- International Master and FIDE Trainer (FIDE).</p>
+					</div>
 				</div>
 			</div>
 		</main>

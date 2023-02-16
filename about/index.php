@@ -75,10 +75,10 @@
 						<p>- Se otorgaron 89 títulos oficiales de FIDE;</p>
 						<p>- Capacitamos de manera continuada durante todo el año lectivo a más de 160 docentes de establecimientos educativos primarios, secundarios y universitarios.</p>
 					</div>
-					<h1>Conoce nos equipo</h1>
+					<h1>Conoce nuestro equipo</h1>
 					<div class="post__item">
 						<h2>Adrián Randazzo</h2>
-						<img src="/assets/images/adrian.jpg">
+						<img src="/assets/images/Adrian.jpg">
 						<p>- Fundador y Maestro FIDE;</p>
 						<p>- FIDE Trainer ejecutivo;</p>
 						<p>- Entrenador y Maestro de la Federación Internacional de Ajedrez;</p>
@@ -86,7 +86,7 @@
 					</div>
 					<div class="post__item">
 						<h2>Fernando Peralta</h2>
-						<img src="/assets/images/fernando.jpg">
+						<img src="/assets/images/Fernando.jpg">
 						<p>- Gran Maestro Internacional;</p>
 						<p>- FIDE Trainer;</p>
 						<p>- Gran Maestro Internacional de ajedrez;</p>
@@ -95,6 +95,11 @@
 						<p>- Ganador de numerosos abiertos internacionales en Europa y América;</p>
 						<p>- Más de 15 años de experiencia como profesor y entrenador de ajedrez de alto rendimiento;</p>
 						<p>- Inscripto en el registro oficial de profesionales del deporte de Catalunya como monitor deportivo profesional y entrenador profesional de ajedrez.</p>
+					</div>
+					<div class="post__item">
+						<h2>Alejo de Dovitiis</h2>
+						<img src="/assets/images/Alejo.jpg">
+						<p>- Maestro Internacional y FIDE Trainer (FIDE).</p>
 					</div>
 				</div>
 			</div>

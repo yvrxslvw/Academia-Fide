@@ -57,7 +57,7 @@
 		<main>
 			<div class="content">
 				<div class="container">
-					<h1>Cursos Academia Fide</h1>
+					<h1>Cursos Academia Fide <p style="color: #6F6F6F;">When buying, in the payment comments, indicate your email address and course level!</p></h1>
 					<div class="shop">
 						<?php
 							$result = mysqli_query($connect, "SELECT * FROM `courses`");
@@ -67,7 +67,7 @@
 							for($i = 0; $i < mysqli_num_rows($result); $i++) {
 								$row = mysqli_fetch_assoc($result);
 
-								echo '<a href="#" class="shop__item">';
+								echo '<a href="https://www.paypal.com/paypalme/fideacademy/' . $row['price'] . '" class="shop__item">';
 									echo '<img src="' . $row['image'] . '">';
 									echo '<h2>' . $row['title_en'] . '</h2>';
 									echo '<p>' . $row['text_en'] . '</p>';

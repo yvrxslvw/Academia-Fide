@@ -61,7 +61,7 @@
 				<img src="/assets/images/chess3.jpg">
 				<div class="slider__body">
 					<div class="slider__item _active">
-						<h2>HIGH PERFORMANCE WEEKLY CLASSES</h2>
+						<h2>ADVANCED CHESS LESSONS</h2>
 						<a href="/en/classes">READ MORE</a>
 					</div>
 					<div class="slider__item">
@@ -85,7 +85,7 @@
 					<div class="description__row">
 						<div class="description__item">
 							<div class="description__img"><img src="/assets/images/chess1.jpg"></div>
-							<h3>HIGH PERFORMANCE WEEKLY CLASSES</h3>
+							<h3>ADVANCED CHESS LESSONS</h3>
 							<a href="/classes">Read more...</a>
 						</div>
 						<div class="description__item">
@@ -128,14 +128,6 @@
 									<input type="image" src="https://www.paypalobjects.com/es_ES/ES/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Botón Donar con PayPal" />
 									<img alt="" border="0" src="https://www.paypal.com/es_ES/i/scr/pixel.gif" width="1" height="1" />
 								</form>
-							</div>
-						</div>
-
-						<div class="search">
-							<div class="search__title">Site search:</div>
-							<div class="search__input">
-								<input type="text" placeholder="Classes...">
-								<button>Search</button>
 							</div>
 						</div>
 					</div>
