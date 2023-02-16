@@ -78,7 +78,7 @@
 					<h1>Meet our team</h1>
 					<div class="post__item">
 						<h2>Adrián Randazzo</h2>
-						<img src="/assets/images/adrian.jpg">
+						<img src="/assets/images/Adrian.jpg">
 						<p>- Founder and FIDE Master;</p>
 						<p>- FIDE Executive Trainer;</p>
 						<p>- Trainer and Master of the International Chess Federation;</p>
@@ -86,7 +86,7 @@
 					</div>
 					<div class="post__item">
 						<h2>Fernando Peralta</h2>
-						<img src="/assets/images/fernando.jpg">
+						<img src="/assets/images/Fernando.jpg">
 						<p>- International Grandmaster;</p>
 						<p>- FIDE Trainer;</p>
 						<p>- International Chess Grand Master;</p>

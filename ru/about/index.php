@@ -78,7 +78,7 @@
 					<h1>Встречайте нашу команду:</h1>
 					<div class="post__item">
 						<h2>Adrián Randazzo</h2>
-						<img src="/assets/images/adrian.jpg">
+						<img src="/assets/images/Adrian.jpg">
 						<p>- Основатель и Мастер FIDE;</p>
 						<p>- Тренер FIDE;</p>
 						<p>- Тренер и мастер Международной шахматной федерации;</p>
@@ -86,7 +86,7 @@
 					</div>
 					<div class="post__item">
 						<h2>Fernando Peralta</h2>
-						<img src="/assets/images/fernando.jpg">
+						<img src="/assets/images/Fernando.jpg">
 						<p>- Международный гроссмейстер;</p>
 						<p>- Тренер FIDE;</p>
 						<p>- Международный гроссмейстер по шахматам;</p>
